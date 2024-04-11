@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<!--
 	<listeners>
-		<listener class-name="userDefinedLibraries.ExtentReport"></listener>
+		<listener class-name="utilities.ExtentReport"></listener>
 	</listeners>
 	<test thread-count="2" name="Test search in Edge">
 		<parameter name="browser" value="edge" />
@@ -15,7 +15,7 @@
 	<test thread-count="2" name="Test search in Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testScenario.TC_HomePage" />	
+			<class name="testScenario.TC_HomePage" />
 		</classes>
 	</test>
 

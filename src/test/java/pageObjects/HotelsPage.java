@@ -12,13 +12,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HotelsPage {
-	public static WebDriver driver;
+	WebDriver driver;
 
 	public HotelsPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(xpath = "//a[normalize-space()='User Rating']")
 	private static WebElement clickonuserrating;
 
@@ -30,17 +30,14 @@ public class HotelsPage {
 
 	@FindBy(xpath = "//div[@class='result-details-right show-gt-768 pr']//p/span/span[2]")
 	private static List<WebElement> hotelpricelist;
-	
-	
-	
-	
+
 	public void clickonUserRating() {
 		clickonuserrating.click();
 		System.out.println("clicked on user rating");
 	}
-	
+
 	public void selectAllAminities() throws InterruptedException {
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		for (int i = 0; i < checkboxlist.size(); i++) {
 			String str = checkboxlist.get(i).getText();
 			if (str.contains("Free WiFi ")) {
@@ -58,22 +55,22 @@ public class HotelsPage {
 		}
 		System.out.println("selected all amenities");
 	}
-	
+
 	public void displayHotelNamesAndPrices() {
-	    if (hotelnamelist.isEmpty()) {
-	        System.out.println("No hotels available");
-	    } else {
-	        for (int i = 0; i < Math.min(hotelnamelist.size(), 3); i++) {
-	            String hotelName = hotelnamelist.get(i).getText();
-	            String hotelPrice = hotelpricelist.get(i).getText();
-	            System.out.println("Hotel Name : " + hotelName);
-	            System.out.println("Price : ₹" + hotelPrice);
-	        }
-	    }
+		if (hotelnamelist.isEmpty()) {
+			System.out.println("No hotels available");
+		} else {
+			for (int i = 0; i < Math.min(hotelnamelist.size(), 3); i++) {
+				String hotelName = hotelnamelist.get(i).getText();
+				String hotelPrice = hotelpricelist.get(i).getText();
+				System.out.println("Hotel Name : " + hotelName);
+				System.out.println("Price : ₹" + hotelPrice);
+			}
+		}
 	}
 
 	public void navigateHomepage() {
 		driver.navigate().back();
 	}
-	
+
 }
