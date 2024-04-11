@@ -4,13 +4,13 @@
   <test thread-count="5" name="Test search in Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testScenario.testcases">
+      <class name="testScenario.TC_HomePage">
         <methods>
-          <include name="selectCheckInDate"/>
-          <include name="driverconfig"/>
           <include name="closeBrowser"/>
+          <include name="displayHotelNamesAndPricesTestCase"/>
+          <include name="driverconfig"/>
         </methods>
-      </class> <!-- testScenario.testcases -->
+      </class> <!-- testScenario.TC_HomePage -->
     </classes>
   </test> <!-- Test search in Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

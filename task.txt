@@ -1,0 +1,17 @@
+make testcase acc to pages
+make page object acc to pages
+
+if action class is repeating then make one method for it
+
+integrate cucumber
+
+integrate data driven
+
+base class setup 
+	driver instantiate 
+
+make method for navigate().back();
+
+multibrowser 
+
+push to github

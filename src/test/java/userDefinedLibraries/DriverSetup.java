@@ -4,10 +4,15 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 public class DriverSetup {
-
+	
 	public static WebDriver driver;
 	public static String url = "https://www.yatra.com/";
 	public static String browserType;
@@ -15,7 +20,9 @@ public class DriverSetup {
 	public static WebDriver driverInstantiate(String browser) {
 		browserType = browser;
 		if (browserType.equalsIgnoreCase("chrome")) {
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notifications");
+			driver = new ChromeDriver(options);
 		} else if (browser.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
 		}
@@ -25,7 +32,7 @@ public class DriverSetup {
 		driver.get(url);
 		return driver;
 	}
-
+	
 	public static void driverTearDown() {
 		driver.quit();
 	}

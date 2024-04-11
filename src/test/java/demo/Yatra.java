@@ -26,9 +26,9 @@ public class Yatra {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		ChromeOptions uptions = new ChromeOptions();
-		uptions.addArguments("--disable-notifications");
-		WebDriver driver = new ChromeDriver(uptions);
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		WebDriver driver = new ChromeDriver(options);
 
 		driver.get("https://www.yatra.com/");
 		driver.manage().window().maximize();
@@ -38,30 +38,33 @@ public class Yatra {
 		// explicit wait
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
+		
+		
+		
+		
+		
 		// click on the hotel
 		driver.findElement(By.id("booking_engine_hotels")).click();
 		System.out.println("clicked on hotels");
-		// enter pune
-
+		
 		Thread.sleep(4000);
 
 		WebElement hotel = driver.findElement(By.id("BE_hotel_destination_city"));
-		// wait.until(ExpectedConditions.elementToBeClickable(hotel));
 		hotel.click();
 
-		// enter nairobi
+		// enter pune
 		Thread.sleep(2000);
 		WebElement destinationCity = driver.findElement(By.id("BE_hotel_destination_city"));
 		destinationCity.sendKeys("pune");
 
-		// wait.until(ExpectedConditions.visibilityOf(destinationCity));
 		// press enter
 		Thread.sleep(3000);
 		WebElement pressEnter = driver.findElement(By.id("BE_hotel_destination_city"));
-		// wait.until(ExpectedConditions.visibilityOf(pressEnter));
 		pressEnter.sendKeys(Keys.ENTER);
 		Thread.sleep(3000);
 
+		
+		
 		LocalDate tomorrowsDate = LocalDate.now().plusDays(1); // gives tomorrows date
 		System.out.println("Check-in Date : " + tomorrowsDate);
 
@@ -86,9 +89,11 @@ public class Yatra {
 		}
 		System.out.println("checkout date clicked!");
 
+		// drop down
 		driver.findElement(By.xpath("//i[@class='icon icon-angle-right arrowpassengerBox']")).click();
 		System.out.println("clicked on drop down");
-
+		
+		// add persons
 		driver.findElement(By.xpath("(//span[@class='ddSpinnerPlus'])[1]")).click();
 		driver.findElement(By.xpath("(//span[@class='ddSpinnerPlus'])[1]")).click();
 		System.out.println("2 adults added");
@@ -187,13 +192,11 @@ public class Yatra {
 		List<WebElement> moreList2 = driver.findElements(By.xpath("//div[@class='moreOption']//li"));
 		for (int i = 0; i < moreList2.size(); i++) {
 			String morelisttxt2 = moreList2.get(i).getText();
-			// System.out.println(moreList.get(i).getText());
 			if (morelisttxt2.contains("Gift")) {
 				action.moveToElement(moreList2.get(i)).click().perform();
 			}
 		}
 
-		// driver.navigate().to("https://www.yatra.com/online/gift-voucher");
 		Set<String> windows = driver.getWindowHandles();
 		for (String window : windows)
 			driver.switchTo().window(window);
@@ -203,16 +206,21 @@ public class Yatra {
 		action.moveToElement(phone).build().perform();
 		driver.findElement(By.id("Name")).sendKeys("Abc");
 		phone.sendKeys("23211");
-		driver.findElement(By.xpath("//*[@id=\"rescheduleRequest\"]/ul/li[9]/input")).click();
+		
+		driver.findElement(By.xpath("//*[@id='rescheduleRequest']/ul/li[9]/input")).click();
 		Thread.sleep(1000);
 		action.moveToElement(phone).build().perform();
 		phone.sendKeys("9321187756");
+		
 		WebElement email = driver.findElement(By.id("email"));
 		email.sendKeys("123@abc");
+		
 		String phoneerr = phone.getAttribute("data-errormsg");
 		String emailerr = email.getAttribute("data-errormsg");
+		
 		System.out.println("Phone number error message : " + phoneerr);
 		System.out.println("Email error message : " + emailerr);
+		
 		driver.findElement(By.xpath("//*[@id=\"rescheduleRequest\"]/ul/li[9]/input")).click();
 
 		System.out.println("Best of luck");

@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScenario.testcases">
+      <class name="testScenario.TC_HomePage">
         <methods>
-          <include name="clickOnHotelstest"/>
+          <include name="closeBrowser"/>
+          <include name="clickonHotelsTestCase"/>
           <include name="driverconfig"/>
-          <include name="sendValue"/>
-          <include name="pressEnter"/>
+          <include name="sendCitytoHotelDestinationTestCase"/>
+          <include name="selectCityFromListTestCase"/>
         </methods>
-      </class> <!-- testScenario.testcases -->
+      </class> <!-- testScenario.TC_HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

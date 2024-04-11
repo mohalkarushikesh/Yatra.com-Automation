@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-09T15:06:44 IST" name="Suite" finished-at="2024-04-09T15:07:55 IST" duration-ms="71864">
+  <suite started-at="2024-04-11T18:54:26 IST" name="Suite" finished-at="2024-04-11T18:55:10 IST" duration-ms="44393">
     <groups>
     </groups>
-    <test started-at="2024-04-09T15:06:44 IST" name="Test search in Chrome" finished-at="2024-04-09T15:07:55 IST" duration-ms="71864">
-      <class name="testScenario.testcases">
-        <test-method is-config="true" signature="driverconfig(java.lang.String)[pri:0, instance:testScenario.testcases@102cec62]" started-at="2024-04-09T15:06:44 IST" name="driverconfig" finished-at="2024-04-09T15:07:18 IST" duration-ms="34913" status="PASS">
+    <test started-at="2024-04-11T18:54:26 IST" name="Test search in Chrome" finished-at="2024-04-11T18:55:10 IST" duration-ms="44393">
+      <class name="testScenario.TC_HomePage">
+        <test-method is-config="true" signature="driverconfig(java.lang.String)[pri:0, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:26 IST" name="driverconfig" finished-at="2024-04-11T18:54:30 IST" duration-ms="4450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,67 +18,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverconfig -->
-        <test-method signature="clickOnHotelstest()[pri:0, instance:testScenario.testcases@102cec62]" started-at="2024-04-09T15:07:18 IST" name="clickOnHotelstest" finished-at="2024-04-09T15:07:23 IST" duration-ms="4171" status="PASS">
+        <test-method signature="clickonHotelsTestCase()[pri:0, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:30 IST" name="clickonHotelsTestCase" finished-at="2024-04-11T18:54:33 IST" duration-ms="3162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnHotelstest -->
-        <test-method signature="sendValue()[pri:1, instance:testScenario.testcases@102cec62]" started-at="2024-04-09T15:07:23 IST" name="sendValue" finished-at="2024-04-09T15:07:25 IST" duration-ms="2640" status="PASS">
+        </test-method> <!-- clickonHotelsTestCase -->
+        <test-method signature="selectCityTestCase()[pri:1, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:33 IST" name="selectCityTestCase" finished-at="2024-04-11T18:54:37 IST" duration-ms="3392" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendValue -->
-        <test-method signature="selectCheckInDate()[pri:2, instance:testScenario.testcases@102cec62]" started-at="2024-04-09T15:07:25 IST" name="selectCheckInDate" finished-at="2024-04-09T15:07:55 IST" duration-ms="30093" status="FAIL">
-          <exception class="java.lang.IndexOutOfBoundsException">
-            <message>
-              <![CDATA[Index 0 out of bounds for length 0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-at java.base/java.util.Objects.checkIndex(Objects.java:361)
-at java.base/java.util.ArrayList.get(ArrayList.java:427)
-at pageObjects.HomePage.selectCheckInDate(HomePage.java:61)
-at testScenario.testcases.selectCheckInDate(testcases.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+        </test-method> <!-- selectCityTestCase -->
+        <test-method signature="selectCheckoutDateTestCase()[pri:2, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:37 IST" name="selectCheckoutDateTestCase" finished-at="2024-04-11T18:54:38 IST" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectCheckInDate -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScenario.testcases@102cec62]" started-at="2024-04-09T15:07:55 IST" name="closeBrowser" finished-at="2024-04-09T15:07:55 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- selectCheckoutDateTestCase -->
+        <test-method signature="clickonTravellerDropDownTestCase()[pri:3, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:38 IST" name="clickonTravellerDropDownTestCase" finished-at="2024-04-11T18:54:38 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonTravellerDropDownTestCase -->
+        <test-method signature="addTravellersTestCase()[pri:4, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:38 IST" name="addTravellersTestCase" finished-at="2024-04-11T18:54:38 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTravellersTestCase -->
+        <test-method signature="clickonSearchButtonTestCase()[pri:5, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:38 IST" name="clickonSearchButtonTestCase" finished-at="2024-04-11T18:54:44 IST" duration-ms="5430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSearchButtonTestCase -->
+        <test-method signature="clickonUserRatingTestCase()[pri:6, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:44 IST" name="clickonUserRatingTestCase" finished-at="2024-04-11T18:54:44 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonUserRatingTestCase -->
+        <test-method signature="selectAllAminitiesTestCase()[pri:7, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:44 IST" name="selectAllAminitiesTestCase" finished-at="2024-04-11T18:54:53 IST" duration-ms="9023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllAminitiesTestCase -->
+        <test-method signature="displayHotelNamesAndPricesTestCase()[pri:8, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:53 IST" name="displayHotelNamesAndPricesTestCase" finished-at="2024-04-11T18:54:56 IST" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayHotelNamesAndPricesTestCase -->
+        <test-method signature="navigateHomepageTestCase()[pri:10, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:56 IST" name="navigateHomepageTestCase" finished-at="2024-04-11T18:54:57 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomepageTestCase -->
+        <test-method signature="moveToMoreTestCase()[pri:11, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:57 IST" name="moveToMoreTestCase" finished-at="2024-04-11T18:54:58 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToMoreTestCase -->
+        <test-method signature="selectCruiseFromMoreListTestCase()[pri:12, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:58 IST" name="selectCruiseFromMoreListTestCase" finished-at="2024-04-11T18:54:58 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruiseFromMoreListTestCase -->
+        <test-method signature="clickonReadMoreTestCase()[pri:13, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:58 IST" name="clickonReadMoreTestCase" finished-at="2024-04-11T18:54:59 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonReadMoreTestCase -->
+        <test-method signature="scrollTestCase1()[pri:14, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:54:59 IST" name="scrollTestCase1" finished-at="2024-04-11T18:54:59 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollTestCase1 -->
+        <test-method signature="printInclusionPointsTestCase()[pri:15, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:00 IST" name="printInclusionPointsTestCase" finished-at="2024-04-11T18:55:00 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printInclusionPointsTestCase -->
+        <test-method signature="navigate2TestCase()[pri:16, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:00 IST" name="navigate2TestCase" finished-at="2024-04-11T18:55:01 IST" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate2TestCase -->
+        <test-method signature="moveToMore2TestCase()[pri:17, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:01 IST" name="moveToMore2TestCase" finished-at="2024-04-11T18:55:02 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToMore2TestCase -->
+        <test-method signature="selectGiftFromMoreListTestCase()[pri:18, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:02 IST" name="selectGiftFromMoreListTestCase" finished-at="2024-04-11T18:55:02 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGiftFromMoreListTestCase -->
+        <test-method signature="switchToGiftVoucherTestCase()[pri:19, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:02 IST" name="switchToGiftVoucherTestCase" finished-at="2024-04-11T18:55:03 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToGiftVoucherTestCase -->
+        <test-method signature="checkForPhoneToolTipTestCase()[pri:21, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:03 IST" name="checkForPhoneToolTipTestCase" finished-at="2024-04-11T18:55:05 IST" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForPhoneToolTipTestCase -->
+        <test-method signature="checkForEmailToolTipTestCase()[pri:22, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:05 IST" name="checkForEmailToolTipTestCase" finished-at="2024-04-11T18:55:07 IST" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForEmailToolTipTestCase -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScenario.TC_HomePage@31edaa7d]" started-at="2024-04-11T18:55:07 IST" name="closeBrowser" finished-at="2024-04-11T18:55:10 IST" duration-ms="3220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testScenario.testcases -->
+      </class> <!-- testScenario.TC_HomePage -->
     </test> <!-- Test search in Chrome -->
   </suite> <!-- Suite -->
 </testng-results>

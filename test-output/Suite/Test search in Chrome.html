@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test search in Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 09 15:06:44 IST 2024</td>
+<td>Started on:</td><td>Thu Apr 11 18:54:26 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>71 seconds (71864 ms)</td>
+<tr><td>Total time:</td><td>44 seconds (44393 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,66 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testScenario.testcases.selectCheckInDate()'><b>selectCheckInDate</b><br>Test class: testScenario.testcases</td>
-<td><div><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:361)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at pageObjects.HomePage.selectCheckInDate(HomePage.java:61)
-	at testScenario.testcases.selectCheckInDate(testcases.java:77)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327840833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace327840833'><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-	at java.base/java.util.Objects.checkIndex(Objects.java:361)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at pageObjects.HomePage.selectCheckInDate(HomePage.java:61)
-	at testScenario.testcases.selectCheckInDate(testcases.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>30</td>
-<td>testScenario.testcases@102cec62</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -136,15 +76,110 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScenario.testcases.sendValue()'><b>sendValue</b><br>Test class: testScenario.testcases</td>
+<td title='testScenario.TC_HomePage.switchToGiftVoucherTestCase()'><b>switchToGiftVoucherTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.displayHotelNamesAndPricesTestCase()'><b>displayHotelNamesAndPricesTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.moveToMoreTestCase()'><b>moveToMoreTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.moveToMore2TestCase()'><b>moveToMore2TestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.selectCruiseFromMoreListTestCase()'><b>selectCruiseFromMoreListTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.selectCityTestCase()'><b>selectCityTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.selectCheckoutDateTestCase()'><b>selectCheckoutDateTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.navigate2TestCase()'><b>navigate2TestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.clickonHotelsTestCase()'><b>clickonHotelsTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.scrollTestCase1()'><b>scrollTestCase1</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.selectAllAminitiesTestCase()'><b>selectAllAminitiesTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>9</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.navigateHomepageTestCase()'><b>navigateHomepageTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.printInclusionPointsTestCase()'><b>printInclusionPointsTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.clickonTravellerDropDownTestCase()'><b>clickonTravellerDropDownTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.addTravellersTestCase()'><b>addTravellersTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.clickonSearchButtonTestCase()'><b>clickonSearchButtonTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>5</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.checkForEmailToolTipTestCase()'><b>checkForEmailToolTipTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.clickonReadMoreTestCase()'><b>clickonReadMoreTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.checkForPhoneToolTipTestCase()'><b>checkForPhoneToolTipTestCase</b><br>Test class: testScenario.TC_HomePage</td>
 <td></td>
 <td>2</td>
-<td>testScenario.testcases@102cec62</td></tr>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
 <tr>
-<td title='testScenario.testcases.clickOnHotelstest()'><b>clickOnHotelstest</b><br>Test class: testScenario.testcases</td>
+<td title='testScenario.TC_HomePage.clickonUserRatingTestCase()'><b>clickonUserRatingTestCase</b><br>Test class: testScenario.TC_HomePage</td>
 <td></td>
-<td>4</td>
-<td>testScenario.testcases@102cec62</td></tr>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
+<tr>
+<td title='testScenario.TC_HomePage.selectGiftFromMoreListTestCase()'><b>selectGiftFromMoreListTestCase</b><br>Test class: testScenario.TC_HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TC_HomePage@31edaa7d</td></tr>
 </table><p>
 </body>
 </html>
