@@ -29,89 +29,16 @@ public class HomePage {
 	@FindBy(id = "booking_engine_hotels")
 	private static WebElement hotels;
 
-	@FindBy(name = "BE_hotel_destination")
-	private static WebElement hoteldestination;
-
-	@FindBy(xpath = "//div[@class='viewport']//li")
-	private static List<WebElement> cititieslist;
-
-	@FindBy(id = "BE_hotel_checkout_date")
-	private static WebElement checkoutdate;
-
-	@FindBy(xpath = "//*[@id='month-scroll0']/div/div/table/tbody/tr/td")
-	private static List<WebElement> listofdates;
-
-	@FindBy(xpath = "//i[@class='icon icon-angle-right arrowpassengerBox']")
-	private static WebElement travellerdropdown;
-
-	@FindBy(xpath = "(//span[@class='ddSpinnerPlus'])[1]")
-	private static WebElement addtravellers;
-
-	@FindBy(xpath = "//input[@id='BE_hotel_htsearch_btn']")
-	private static WebElement clickonsearchbutton;
-
 	@FindBy(xpath = "//span[@class='more-arr']")
-	private static WebElement more;
+	public static WebElement more;
 
 	@FindBy(xpath = "//div[@class='moreOption']//li")
-	private static List<WebElement> morelist;
-
-	@FindBy(xpath = "(//i[@class='demo-icon icon-go arrow-go'])[1]")
-	private static WebElement readmore;
-
-	@FindBy(xpath = "(//li[@class='block-desc']//span)[1]")
-	private static WebElement inclusionpoints;
+	public static List<WebElement> morelist;
 
 	public void clickonHotels() {
 		hotels.click();
 		System.out.println("clicked on hotels");
 
-	}
-
-	public void selectCity(String city) throws InterruptedException {
-		Thread.sleep(1000);
-		hoteldestination.click();
-		Thread.sleep(1000);
-		hoteldestination.clear();
-		hoteldestination.sendKeys(city);
-		Thread.sleep(1000);
-		hoteldestination.sendKeys(Keys.ENTER);
-		System.out.println(city + " is selected");
-	}
-
-	public void selectCheckoutDate() {
-		LocalDate tomorrowsDate = LocalDate.now().plusDays(1); // gives tomorrows date
-		System.out.println("Check-in Date : " + tomorrowsDate);
-		checkoutdate.click();
-		LocalDate checkoutdate = LocalDate.now().plusDays(5);
-		System.out.println("Check-out Date : " + checkoutdate);
-
-		String formatedDate = checkoutdate.format(DateTimeFormatter.ofPattern("dd-MM-YYYY"));
-		String date = formatedDate.substring(0, 2);
-		for (int i = 1; i < listofdates.size(); i++) {
-			if (listofdates.get(i).getText().equals(date)) {
-				listofdates.get(i).click();
-				break;
-			}
-
-		}
-		System.out.println("checkout date selected");
-	}
-
-	public void clickonTravellerDropDown() {
-		travellerdropdown.click();
-		System.out.println("clicked on traveller drop down");
-	}
-
-	public void addTravellers() {
-		addtravellers.click();
-		addtravellers.click();
-		System.out.println("2 traveller added");
-	}
-
-	public void clickonSearchButton() {
-		clickonsearchbutton.click();
-		System.out.println("clicked on search button");
 	}
 
 	public void moveToMore() {
@@ -129,24 +56,11 @@ public class HomePage {
 		}
 	}
 
-	public void clickonReadMore() {
-		readmore.click();
-	}
+//	public void moveToMore2() {
+//		Actions action = new Actions(driver);
+//		action.moveToElement(more).perform();
+//	}
 
-	public void printInclusionPoints() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,250)", "");
-		System.out.println(inclusionpoints.getText());
-	}
-
-	// navigate
-
-	public void moveToMore2() {
-		Actions action = new Actions(driver);
-		action.moveToElement(more).perform();
-	}
-
-	// new page
 
 	public void selectGiftFromMoreList() {
 		Actions action = new Actions(driver);

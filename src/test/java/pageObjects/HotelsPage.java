@@ -1,15 +1,14 @@
 package pageObjects;
 
-import java.time.Duration;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HotelsPage {
 	WebDriver driver;
@@ -18,59 +17,71 @@ public class HotelsPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	@FindBy(name = "BE_hotel_destination")
+	private static WebElement hoteldestination;
 
-	@FindBy(xpath = "//a[normalize-space()='User Rating']")
-	private static WebElement clickonuserrating;
+	@FindBy(xpath = "//div[@class='viewport']//li")
+	private static List<WebElement> cititieslist;
 
-	@FindBy(xpath = "//div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label")
-	private static List<WebElement> checkboxlist;
+	@FindBy(id = "BE_hotel_checkout_date")
+	private static WebElement checkoutdate;
 
-	@FindBy(xpath = "//h2[@class='hotel-name full fs-18 three-dot']")
-	private static List<WebElement> hotelnamelist;
+	@FindBy(xpath = "//*[@id='month-scroll0']/div/div/table/tbody/tr/td")
+	private static List<WebElement> listofdates;
 
-	@FindBy(xpath = "//div[@class='result-details-right show-gt-768 pr']//p/span/span[2]")
-	private static List<WebElement> hotelpricelist;
+	@FindBy(xpath = "//i[@class='icon icon-angle-right arrowpassengerBox']")
+	private static WebElement travellerdropdown;
 
-	public void clickonUserRating() {
-		clickonuserrating.click();
-		System.out.println("clicked on user rating");
+	@FindBy(xpath = "(//span[@class='ddSpinnerPlus'])[1]")
+	private static WebElement addtravellers;
+
+	@FindBy(xpath = "//input[@id='BE_hotel_htsearch_btn']")
+	private static WebElement clickonsearchbutton;
+	
+	public void selectCity(String city) throws InterruptedException {
+		Thread.sleep(1000);
+		hoteldestination.click();
+		Thread.sleep(1000);
+		hoteldestination.clear();
+		hoteldestination.sendKeys(city);
+		Thread.sleep(1000);
+		hoteldestination.sendKeys(Keys.ENTER);
+		System.out.println(city + " is selected");
 	}
 
-	public void selectAllAminities() throws InterruptedException {
-		Thread.sleep(5000);
-		for (int i = 0; i < checkboxlist.size(); i++) {
-			String str = checkboxlist.get(i).getText();
-			if (str.contains("Free WiFi ")) {
-				checkboxlist.get(i).click();
+	public void selectCheckoutDate() {
+		LocalDate tomorrowsDate = LocalDate.now().plusDays(1); // gives tomorrows date
+		System.out.println("Check-in Date : " + tomorrowsDate);
+		checkoutdate.click();
+		LocalDate checkoutdate = LocalDate.now().plusDays(5);
+		System.out.println("Check-out Date : " + checkoutdate);
+
+		String formatedDate = checkoutdate.format(DateTimeFormatter.ofPattern("dd-MM-YYYY"));
+		String date = formatedDate.substring(0, 2);
+		for (int i = 1; i < listofdates.size(); i++) {
+			if (listofdates.get(i).getText().equals(date)) {
+				listofdates.get(i).click();
+				break;
 			}
-			if (str.contains("Free Breakfast ")) {
-				checkboxlist.get(i).click();
-			}
-			if (str.contains("Laundry facilities ")) {
-				checkboxlist.get(i).click();
-			}
-			if (str.contains("Swimming pool ")) {
-				checkboxlist.get(i).click();
-			}
+
 		}
-		System.out.println("selected all amenities");
+		System.out.println("checkout date selected");
 	}
 
-	public void displayHotelNamesAndPrices() {
-		if (hotelnamelist.isEmpty()) {
-			System.out.println("No hotels available");
-		} else {
-			for (int i = 0; i < Math.min(hotelnamelist.size(), 3); i++) {
-				String hotelName = hotelnamelist.get(i).getText();
-				String hotelPrice = hotelpricelist.get(i).getText();
-				System.out.println("Hotel Name : " + hotelName);
-				System.out.println("Price : ₹" + hotelPrice);
-			}
-		}
+	public void clickonTravellerDropDown() {
+		travellerdropdown.click();
+		System.out.println("clicked on traveller drop down");
 	}
 
-	public void navigateHomepage() {
-		driver.navigate().back();
+	public void addTravellers() {
+		addtravellers.click();
+		addtravellers.click();
+		System.out.println("2 traveller added");
 	}
 
+	public void clickonSearchButton() {
+		clickonsearchbutton.click();
+		System.out.println("clicked on search button");
+	}
 }

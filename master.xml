@@ -15,7 +15,9 @@
 	<test thread-count="2" name="Test search in Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testScenario.TC_HomePage" />
+			<class name="testScenario.TC_HotelsPage" />
+			<class name="testScenario.TC_CruisePage" />
+			<class name="testScenario.TC_GiftVoucherPage" />
 		</classes>
 	</test>
 

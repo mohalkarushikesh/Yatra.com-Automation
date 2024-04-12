@@ -15,3 +15,12 @@ make method for navigate().back();
 multibrowser 
 
 push to github
+
+
+
+page objects page wise
+	hotels : https://www.yatra.com/hotels : make 
+	hotels-search  : done
+	https://www.yatra.com/cruise
+	https://www.yatra.com/online/gift-voucher : done	
+	

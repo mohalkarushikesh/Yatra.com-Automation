@@ -4,32 +4,13 @@
   <test thread-count="5" name="Test search in Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testScenario.TC_HomePage">
+      <class name="testScenario.TC_HotelsPage">
         <methods>
-          <include name="clickonUserRatingTestCase"/>
-          <include name="clickonSearchButtonTestCase"/>
-          <include name="navigateHomepageTestCase"/>
-          <include name="clickonReadMoreTestCase"/>
-          <include name="printInclusionPointsTestCase"/>
-          <include name="addTravellersTestCase"/>
-          <include name="clickonHotelsTestCase"/>
-          <include name="moveToMore2TestCase"/>
-          <include name="navigate2TestCase"/>
-          <include name="selectGiftFromMoreListTestCase"/>
-          <include name="driverTearDown"/>
-          <include name="clickonTravellerDropDownTestCase"/>
-          <include name="checkForEmailToolTipTestCase"/>
-          <include name="selectCheckoutDateTestCase"/>
-          <include name="displayHotelNamesAndPricesTestCase"/>
-          <include name="selectCityTestCase"/>
-          <include name="switchToGiftVoucherTestCase"/>
-          <include name="checkForPhoneToolTipTestCase"/>
-          <include name="setup"/>
-          <include name="selectCruiseFromMoreListTestCase"/>
           <include name="selectAllAminitiesTestCase"/>
-          <include name="moveToMoreTestCase"/>
+          <include name="driverTearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testScenario.TC_HomePage -->
+      </class> <!-- testScenario.TC_HotelsPage -->
     </classes>
   </test> <!-- Test search in Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

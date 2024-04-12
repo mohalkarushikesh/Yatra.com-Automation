@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods,   20 passed</span>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="selectAllAminitiesTestCase">selectAllAminitiesTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,102 +117,97 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="addTravellersTestCase">addTravellersTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="addTravellersTestCase">addTravellersTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="checkForEmailToolTipTestCase">checkForEmailToolTipTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_GiftVoucherPage" class="method navigator-link" hash-for-method="checkForEmailToolTipTestCase">checkForEmailToolTipTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="checkForPhoneToolTipTestCase">checkForPhoneToolTipTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_GiftVoucherPage" class="method navigator-link" hash-for-method="checkForPhoneToolTipTestCase">checkForPhoneToolTipTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="clickonHotelsTestCase">clickonHotelsTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="clickonHotelsTestCase">clickonHotelsTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="clickonReadMoreTestCase">clickonReadMoreTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_CruisePage" class="method navigator-link" hash-for-method="clickonReadMoreTestCase">clickonReadMoreTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="clickonSearchButtonTestCase">clickonSearchButtonTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="clickonSearchButtonTestCase">clickonSearchButtonTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="clickonTravellerDropDownTestCase">clickonTravellerDropDownTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="clickonTravellerDropDownTestCase">clickonTravellerDropDownTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="clickonUserRatingTestCase">clickonUserRatingTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="clickonUserRatingTestCase">clickonUserRatingTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="displayHotelNamesAndPricesTestCase">displayHotelNamesAndPricesTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="displayHotelNamesAndPricesTestCase">displayHotelNamesAndPricesTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="moveToMore2TestCase">moveToMore2TestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_GiftVoucherPage" class="method navigator-link" hash-for-method="moveToMore2TestCase">moveToMore2TestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="moveToMoreTestCase">moveToMoreTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_CruisePage" class="method navigator-link" hash-for-method="moveToMoreTestCase">moveToMoreTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="navigate2TestCase">navigate2TestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_CruisePage" class="method navigator-link" hash-for-method="navigate2TestCase">navigate2TestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="navigateHomepageTestCase">navigateHomepageTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="navigateHomepageTestCase">navigateHomepageTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="printInclusionPointsTestCase">printInclusionPointsTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_CruisePage" class="method navigator-link" hash-for-method="printInclusionPointsTestCase">printInclusionPointsTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="selectAllAminitiesTestCase">selectAllAminitiesTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="selectCheckoutDateTestCase">selectCheckoutDateTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="selectCheckoutDateTestCase">selectCheckoutDateTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HotelsPage" class="method navigator-link" hash-for-method="selectCityTestCase">selectCityTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="selectCityTestCase">selectCityTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_CruisePage" class="method navigator-link" hash-for-method="selectCruiseFromMoreListTestCase">selectCruiseFromMoreListTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="selectCruiseFromMoreListTestCase">selectCruiseFromMoreListTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_GiftVoucherPage" class="method navigator-link" hash-for-method="selectGiftFromMoreListTestCase">selectGiftFromMoreListTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="selectGiftFromMoreListTestCase">selectGiftFromMoreListTestCase</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_HomePage" class="method navigator-link" hash-for-method="switchToGiftVoucherTestCase">switchToGiftVoucherTestCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testScenario.TC_GiftVoucherPage" class="method navigator-link" hash-for-method="switchToGiftVoucherTestCase">switchToGiftVoucherTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -213,10 +222,92 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScenario.TC_HotelsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectAllAminitiesTestCase">
+                  </a> <!-- selectAllAminitiesTestCase -->
+                  <span class="method-name">selectAllAminitiesTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=121.0.6167.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9f7203da5ff99939ef27e130dd3830f, getElementText {id=46E789D01B33C61D0957B2D1616C3335_element_510}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56446/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a9f7203da5ff99939ef27e130dd3830f)] -&gt; xpath: //div[@class=&apos;full filter-wrapper accordion-wrappper accordion-anim-1&apos;]//label]
+Session ID: a9f7203da5ff99939ef27e130dd3830f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at pageObjects.HotelsSearchPage.selectAllAminities(HotelsSearchPage.java:42)
+	at testScenario.TC_HotelsPage.selectAllAminitiesTestCase(TC_HotelsPage.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testScenario.TC_HomePage</span>
+              <span class="class-name">testScenario.TC_CruisePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonReadMoreTestCase">
+                  </a> <!-- clickonReadMoreTestCase -->
+                  <span class="method-name">clickonReadMoreTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveToMoreTestCase">
+                  </a> <!-- moveToMoreTestCase -->
+                  <span class="method-name">moveToMoreTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate2TestCase">
+                  </a> <!-- navigate2TestCase -->
+                  <span class="method-name">navigate2TestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printInclusionPointsTestCase">
+                  </a> <!-- printInclusionPointsTestCase -->
+                  <span class="method-name">printInclusionPointsTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCruiseFromMoreListTestCase">
+                  </a> <!-- selectCruiseFromMoreListTestCase -->
+                  <span class="method-name">selectCruiseFromMoreListTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenario.TC_HotelsPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -228,30 +319,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkForEmailToolTipTestCase">
-                  </a> <!-- checkForEmailToolTipTestCase -->
-                  <span class="method-name">checkForEmailToolTipTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkForPhoneToolTipTestCase">
-                  </a> <!-- checkForPhoneToolTipTestCase -->
-                  <span class="method-name">checkForPhoneToolTipTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="clickonHotelsTestCase">
                   </a> <!-- clickonHotelsTestCase -->
                   <span class="method-name">clickonHotelsTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickonReadMoreTestCase">
-                  </a> <!-- clickonReadMoreTestCase -->
-                  <span class="method-name">clickonReadMoreTestCase</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -284,44 +354,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="moveToMore2TestCase">
-                  </a> <!-- moveToMore2TestCase -->
-                  <span class="method-name">moveToMore2TestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="moveToMoreTestCase">
-                  </a> <!-- moveToMoreTestCase -->
-                  <span class="method-name">moveToMoreTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigate2TestCase">
-                  </a> <!-- navigate2TestCase -->
-                  <span class="method-name">navigate2TestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="navigateHomepageTestCase">
                   </a> <!-- navigateHomepageTestCase -->
                   <span class="method-name">navigateHomepageTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="printInclusionPointsTestCase">
-                  </a> <!-- printInclusionPointsTestCase -->
-                  <span class="method-name">printInclusionPointsTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectAllAminitiesTestCase">
-                  </a> <!-- selectAllAminitiesTestCase -->
-                  <span class="method-name">selectAllAminitiesTestCase</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -338,11 +373,33 @@
                   <span class="method-name">selectCityTestCase</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenario.TC_GiftVoucherPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="selectCruiseFromMoreListTestCase">
-                  </a> <!-- selectCruiseFromMoreListTestCase -->
-                  <span class="method-name">selectCruiseFromMoreListTestCase</span>
+                  <a name="checkForEmailToolTipTestCase">
+                  </a> <!-- checkForEmailToolTipTestCase -->
+                  <span class="method-name">checkForEmailToolTipTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForPhoneToolTipTestCase">
+                  </a> <!-- checkForPhoneToolTipTestCase -->
+                  <span class="method-name">checkForPhoneToolTipTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveToMore2TestCase">
+                  </a> <!-- moveToMore2TestCase -->
+                  <span class="method-name">moveToMore2TestCase</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -374,7 +431,9 @@
   &lt;test thread-count=&quot;2&quot; name=&quot;Test search in Chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testScenario.TC_HomePage&quot;/&gt;
+      &lt;class name=&quot;testScenario.TC_HotelsPage&quot;/&gt;
+      &lt;class name=&quot;testScenario.TC_CruisePage&quot;/&gt;
+      &lt;class name=&quot;testScenario.TC_GiftVoucherPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test search in Chrome --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -388,7 +447,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test search in Chrome (1 class)</span>
+                <span class="test-name">Test search in Chrome (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -417,89 +476,89 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(20);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'selectAllAminitiesTestCase')
-data.setCell(0, 2, 'testScenario.TC_HomePage')
-data.setCell(0, 3, 9245);
+data.setCell(0, 2, 'testScenario.TC_HotelsPage')
+data.setCell(0, 3, 8873);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'clickonSearchButtonTestCase')
-data.setCell(1, 2, 'testScenario.TC_HomePage')
-data.setCell(1, 3, 5484);
+data.setCell(1, 2, 'testScenario.TC_HotelsPage')
+data.setCell(1, 3, 4839);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'selectCityTestCase')
-data.setCell(2, 2, 'testScenario.TC_HomePage')
-data.setCell(2, 3, 3270);
+data.setCell(2, 2, 'testScenario.TC_HotelsPage')
+data.setCell(2, 3, 3506);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'displayHotelNamesAndPricesTestCase')
-data.setCell(3, 2, 'testScenario.TC_HomePage')
-data.setCell(3, 3, 3211);
+data.setCell(3, 1, 'checkForPhoneToolTipTestCase')
+data.setCell(3, 2, 'testScenario.TC_GiftVoucherPage')
+data.setCell(3, 3, 3313);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkForPhoneToolTipTestCase')
-data.setCell(4, 2, 'testScenario.TC_HomePage')
-data.setCell(4, 3, 2455);
+data.setCell(4, 1, 'displayHotelNamesAndPricesTestCase')
+data.setCell(4, 2, 'testScenario.TC_HotelsPage')
+data.setCell(4, 3, 3293);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'checkForEmailToolTipTestCase')
-data.setCell(5, 2, 'testScenario.TC_HomePage')
-data.setCell(5, 3, 1446);
+data.setCell(5, 2, 'testScenario.TC_GiftVoucherPage')
+data.setCell(5, 3, 1787);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'navigateHomepageTestCase')
-data.setCell(6, 2, 'testScenario.TC_HomePage')
-data.setCell(6, 3, 921);
+data.setCell(6, 1, 'navigate2TestCase')
+data.setCell(6, 2, 'testScenario.TC_CruisePage')
+data.setCell(6, 3, 1389);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'navigate2TestCase')
-data.setCell(7, 2, 'testScenario.TC_HomePage')
-data.setCell(7, 3, 848);
+data.setCell(7, 1, 'navigateHomepageTestCase')
+data.setCell(7, 2, 'testScenario.TC_HotelsPage')
+data.setCell(7, 3, 928);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'selectCheckoutDateTestCase')
-data.setCell(8, 2, 'testScenario.TC_HomePage')
-data.setCell(8, 3, 727);
+data.setCell(8, 2, 'testScenario.TC_HotelsPage')
+data.setCell(8, 3, 888);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'clickonReadMoreTestCase')
-data.setCell(9, 2, 'testScenario.TC_HomePage')
-data.setCell(9, 3, 637);
+data.setCell(9, 2, 'testScenario.TC_CruisePage')
+data.setCell(9, 3, 759);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'selectCruiseFromMoreListTestCase')
-data.setCell(10, 2, 'testScenario.TC_HomePage')
-data.setCell(10, 3, 609);
+data.setCell(10, 1, 'selectGiftFromMoreListTestCase')
+data.setCell(10, 2, 'testScenario.TC_GiftVoucherPage')
+data.setCell(10, 3, 730);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'selectGiftFromMoreListTestCase')
-data.setCell(11, 2, 'testScenario.TC_HomePage')
-data.setCell(11, 3, 602);
+data.setCell(11, 1, 'selectCruiseFromMoreListTestCase')
+data.setCell(11, 2, 'testScenario.TC_CruisePage')
+data.setCell(11, 3, 667);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'moveToMore2TestCase')
-data.setCell(12, 2, 'testScenario.TC_HomePage')
-data.setCell(12, 3, 290);
+data.setCell(12, 1, 'clickonUserRatingTestCase')
+data.setCell(12, 2, 'testScenario.TC_HotelsPage')
+data.setCell(12, 3, 482);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'clickonUserRatingTestCase')
-data.setCell(13, 2, 'testScenario.TC_HomePage')
-data.setCell(13, 3, 246);
+data.setCell(13, 1, 'moveToMore2TestCase')
+data.setCell(13, 2, 'testScenario.TC_GiftVoucherPage')
+data.setCell(13, 3, 479);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'moveToMoreTestCase')
-data.setCell(14, 2, 'testScenario.TC_HomePage')
-data.setCell(14, 3, 184);
+data.setCell(14, 2, 'testScenario.TC_CruisePage')
+data.setCell(14, 3, 430);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'printInclusionPointsTestCase')
-data.setCell(15, 2, 'testScenario.TC_HomePage')
-data.setCell(15, 3, 150);
+data.setCell(15, 1, 'clickonHotelsTestCase')
+data.setCell(15, 2, 'testScenario.TC_HotelsPage')
+data.setCell(15, 3, 240);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'clickonHotelsTestCase')
-data.setCell(16, 2, 'testScenario.TC_HomePage')
-data.setCell(16, 3, 119);
+data.setCell(16, 1, 'printInclusionPointsTestCase')
+data.setCell(16, 2, 'testScenario.TC_CruisePage')
+data.setCell(16, 3, 188);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'addTravellersTestCase')
-data.setCell(17, 2, 'testScenario.TC_HomePage')
-data.setCell(17, 3, 97);
+data.setCell(17, 2, 'testScenario.TC_HotelsPage')
+data.setCell(17, 3, 125);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'clickonTravellerDropDownTestCase')
-data.setCell(18, 2, 'testScenario.TC_HomePage')
-data.setCell(18, 3, 58);
+data.setCell(18, 2, 'testScenario.TC_HotelsPage')
+data.setCell(18, 3, 78);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'switchToGiftVoucherTestCase')
-data.setCell(19, 2, 'testScenario.TC_HomePage')
-data.setCell(19, 3, 44);
+data.setCell(19, 2, 'testScenario.TC_GiftVoucherPage')
+data.setCell(19, 3, 52);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -514,9 +573,27 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenario.TC_CruisePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">driverTearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScenario.TC_GiftVoucherPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">driverTearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -525,95 +602,106 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testScenario.TC_HomePage</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="chronological-class-name">testScenario.TC_HotelsPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">clickonHotelsTestCase</span>
-                <span class="method-start">5537 ms</span>
+                <span class="method-start">8346 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectCityTestCase</span>
-                <span class="method-start">5663 ms</span>
+                <span class="method-start">8595 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectCheckoutDateTestCase</span>
-                <span class="method-start">8937 ms</span>
+                <span class="method-start">12103 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickonTravellerDropDownTestCase</span>
-                <span class="method-start">9666 ms</span>
+                <span class="method-start">12993 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addTravellersTestCase</span>
-                <span class="method-start">9726 ms</span>
+                <span class="method-start">13073 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickonSearchButtonTestCase</span>
-                <span class="method-start">9824 ms</span>
+                <span class="method-start">13200 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickonUserRatingTestCase</span>
-                <span class="method-start">15311 ms</span>
+                <span class="method-start">18042 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">selectAllAminitiesTestCase</span>
-                <span class="method-start">15559 ms</span>
+                <span class="method-start">18527 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">displayHotelNamesAndPricesTestCase</span>
-                <span class="method-start">24805 ms</span>
+                <span class="method-start">27403 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">navigateHomepageTestCase</span>
-                <span class="method-start">28018 ms</span>
+                <span class="method-start">30702 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.TC_CruisePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">moveToMoreTestCase</span>
-                <span class="method-start">28940 ms</span>
+                <span class="method-start">31633 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectCruiseFromMoreListTestCase</span>
-                <span class="method-start">29125 ms</span>
+                <span class="method-start">32065 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickonReadMoreTestCase</span>
-                <span class="method-start">29734 ms</span>
+                <span class="method-start">32733 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">printInclusionPointsTestCase</span>
-                <span class="method-start">30372 ms</span>
+                <span class="method-start">33493 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">navigate2TestCase</span>
-                <span class="method-start">30523 ms</span>
+                <span class="method-start">33682 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.TC_GiftVoucherPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">moveToMore2TestCase</span>
-                <span class="method-start">31372 ms</span>
+                <span class="method-start">35074 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectGiftFromMoreListTestCase</span>
-                <span class="method-start">31664 ms</span>
+                <span class="method-start">35554 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">switchToGiftVoucherTestCase</span>
-                <span class="method-start">32268 ms</span>
+                <span class="method-start">36286 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkForPhoneToolTipTestCase</span>
-                <span class="method-start">32316 ms</span>
+                <span class="method-start">36339 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkForEmailToolTipTestCase</span>
-                <span class="method-start">34772 ms</span>
+                <span class="method-start">39654 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenario.TC_HotelsPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
                 <span class="method-name">driverTearDown</span>
-                <span class="method-start">36219 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">41442 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
