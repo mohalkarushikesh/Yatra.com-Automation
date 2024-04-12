@@ -47,12 +47,35 @@ clicked on traveller drop down
 2 traveller added
 clicked on search button
 clicked on user rating
-Hotel Name : Marriott Suites Pune
-Price : ₹1,01,895
+selected all amenities
 Hotel Name : Oxford Golf Resort
 Price : ₹1,96,871
 Hotel Name : Oakwood Residence Pune
 Price : ₹51,500
+Hotel Name : Radisson Blu Hinjawadi Pune
+Price : ₹12,25,000
+INCLUSION
+2 Nights Cruise Accommodation
+Meals (as specified in the itinerary)
+Onboard Entertainment & Activities.(Some onboard activities and entertainment are chargeable)
+Phone number error message : Please enter mobile number
+Email error message : Please enter your valid email id
+
+clicked on hotels
+Pune is selected
+Check-in Date : 2024-04-13
+Check-out Date : 2024-04-17
+checkout date selected
+clicked on traveller drop down
+2 traveller added
+clicked on search button
+clicked on user rating
+Hotel Name : Oxford Golf Resort
+Price : ₹1,96,871
+Hotel Name : Oakwood Residence Pune
+Price : ₹51,500
+Hotel Name : Radisson Blu Hinjawadi Pune
+Price : ₹12,25,000
 INCLUSION
 2 Nights Cruise Accommodation
 Meals (as specified in the itinerary)
@@ -62,7 +85,8 @@ Email error message : Please enter your valid email id
 
 ===============================================
 Suite
-Total tests run: 20, Passes: 19, Failures: 1, Skips: 0
+Total tests run: 40, Passes: 39, Failures: 1, Skips: 0
 ===============================================
+
 ```
 

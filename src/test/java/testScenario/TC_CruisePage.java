@@ -12,11 +12,8 @@ import testBase.BaseClass;
 public class TC_CruisePage extends BaseClass{
 	HomePage homepage;
 	CruisePage cruisepage;
-	
-	private ExtentReports extent;
-
-	// helps to generate the logs in the report
-	private ExtentTest test;
+	//private ExtentReports extent;
+	//private ExtentTest test; // helps to generate the logs in the report
 	ExtentReports extentreportobj = new ExtentReports();
 	String screenshotPath;
 	

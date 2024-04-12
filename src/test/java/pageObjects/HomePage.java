@@ -55,13 +55,7 @@ public class HomePage {
 			}
 		}
 	}
-
-//	public void moveToMore2() {
-//		Actions action = new Actions(driver);
-//		action.moveToElement(more).perform();
-//	}
-
-
+	
 	public void selectGiftFromMoreList() {
 		Actions action = new Actions(driver);
 		for (int i = 0; i < morelist.size(); i++) {

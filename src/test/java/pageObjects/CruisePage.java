@@ -12,7 +12,6 @@ public class CruisePage {
 	public CruisePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-
 	}
 	
 	@FindBy(xpath = "(//i[@class='demo-icon icon-go arrow-go'])[1]")

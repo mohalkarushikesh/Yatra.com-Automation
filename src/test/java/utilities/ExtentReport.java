@@ -24,8 +24,8 @@ public class ExtentReport extends BaseClass implements ITestListener {
 		reportName = "Test-Report-" + timeStamp + ".html";
 
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + reportName);// location
-		sparkReporter.config().setDocumentTitle("Acronym Extent Report");
-		sparkReporter.config().setReportName("Acronym Report");
+		sparkReporter.config().setDocumentTitle("Yatra.com Extent Report");
+		sparkReporter.config().setReportName("yatra Report");
 		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
