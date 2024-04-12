@@ -37,6 +37,7 @@
 To run the tests, use the following command: 'mvn test'
 
 ### Output: [Chrome and Edge]
+```
 clicked on hotels
 Pune is selected
 Check-in Date : 2024-04-13
@@ -59,8 +60,9 @@ Onboard Entertainment & Activities.(Some onboard activities and entertainment ar
 Phone number error message : Please enter mobile number
 Email error message : Please enter your valid email id
 
-======================================================
+===============================================
 Suite
 Total tests run: 20, Passes: 19, Failures: 1, Skips: 0
-======================================================
+===============================================
+```
 
