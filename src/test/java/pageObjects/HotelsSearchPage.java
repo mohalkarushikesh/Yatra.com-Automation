@@ -11,12 +11,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class HotelsSearchPage {
+public class HotelsSearchPage extends BasePage{
 	WebDriver driver;
 
 	public HotelsSearchPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 
 	@FindBy(xpath = "//a[normalize-space()='User Rating']")

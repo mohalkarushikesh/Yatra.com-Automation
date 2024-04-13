@@ -6,12 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CruisePage {
+public class CruisePage extends BasePage{
 	WebDriver driver;
 
 	public CruisePage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 	
 	@FindBy(xpath = "(//i[@class='demo-icon icon-go arrow-go'])[1]")

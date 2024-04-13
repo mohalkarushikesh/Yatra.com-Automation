@@ -7,12 +7,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class GiftVoucherPage {
+public class GiftVoucherPage extends BasePage{
 	WebDriver driver;
 
 	public GiftVoucherPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 
 	@FindBy(id = "Name")

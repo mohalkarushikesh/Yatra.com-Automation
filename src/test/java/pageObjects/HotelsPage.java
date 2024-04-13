@@ -10,12 +10,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HotelsPage {
+public class HotelsPage extends BasePage{
 	WebDriver driver;
 
 	public HotelsPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 	
 	@FindBy(name = "BE_hotel_destination")
