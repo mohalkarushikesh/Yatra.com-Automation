@@ -14,8 +14,6 @@ public class TC_HotelsPage extends BaseClass {
 	HomePage homepage;
 	HotelsPage hotelspage;
 	HotelsSearchPage hotelssearchpage;
-	//private ExtentReports extent;
-	//private ExtentTest test; // helps to generate the logs in the report
 	ExtentReports extentreportobj = new ExtentReports();
 	String screenshotPath;
 

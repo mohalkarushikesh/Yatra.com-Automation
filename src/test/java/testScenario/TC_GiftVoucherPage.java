@@ -12,8 +12,6 @@ import testBase.BaseClass;
 public class TC_GiftVoucherPage  extends BaseClass{
 	HomePage homepage;
 	GiftVoucherPage giftvoucherpage;
-	// ExtentReports extent;
-	//private ExtentTest test; // helps to generate the logs in the report
 	ExtentReports extentreportobj = new ExtentReports();
 	String screenshotPath;
 	
