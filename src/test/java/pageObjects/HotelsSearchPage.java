@@ -1,15 +1,12 @@
 package pageObjects;
 
-import java.time.Duration;
+
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class HotelsSearchPage extends BasePage{
 	WebDriver driver;
@@ -36,7 +33,7 @@ public class HotelsSearchPage extends BasePage{
 	}
 
 	public void selectAllAminities() throws InterruptedException {
-		Thread.sleep(6000);
+		Thread.sleep(8000);
 		for (int i = 0; i < checkboxlist.size(); i++) {
 			String str = checkboxlist.get(i).getText();
 			if (str.contains("Free WiFi ")) {
