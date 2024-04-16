@@ -12,6 +12,3 @@ integrate data driven
 
 push to github
 
-
-
-	
