@@ -7,25 +7,24 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class GiftVoucherPage {
+public class GiftVoucherPage extends BasePage{
 	WebDriver driver;
 
 	public GiftVoucherPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 
 	@FindBy(id = "Name")
-	private static WebElement name;
+	public static WebElement name;
 
 	@FindBy(id = "phone")
-	private static WebElement phone;
+	public static WebElement phone;
 
 	@FindBy(id = "email")
-	private static WebElement email;
+	public static WebElement email;
 
 	@FindBy(xpath = "//input[@value='Submit']")
-	private static WebElement submit;
+	public static WebElement submit;
 
 	public void checkForPhoneToolTip() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor) driver;

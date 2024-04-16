@@ -6,20 +6,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CruisePage {
+public class CruisePage extends BasePage {
 	WebDriver driver;
 
 	public CruisePage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
-	
+
 	@FindBy(xpath = "(//i[@class='demo-icon icon-go arrow-go'])[1]")
-	private static WebElement readmore;
+	public static WebElement readmore;
 
 	@FindBy(xpath = "(//li[@class='block-desc']//span)[1]")
-	private static WebElement inclusionpoints;
-	
+	public static WebElement inclusionpoints;
+
 	public void clickonReadMore() {
 		readmore.click();
 	}
@@ -29,5 +28,5 @@ public class CruisePage {
 		js.executeScript("window.scrollBy(0,250)", "");
 		System.out.println(inclusionpoints.getText());
 	}
-	
+
 }

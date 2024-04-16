@@ -2,137 +2,34 @@
 <testng-results ignored="0" total="40" passed="39" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-13T10:07:35 IST" name="Suite" finished-at="2024-04-13T10:09:08 IST" duration-ms="93618">
+  <suite started-at="2024-04-13T10:35:23 IST" name="Suite" finished-at="2024-04-13T10:36:55 IST" duration-ms="91713">
     <groups>
     </groups>
-    <test started-at="2024-04-13T10:07:35 IST" name="Test search in Edge" finished-at="2024-04-13T10:08:24 IST" duration-ms="49560">
+    <test started-at="2024-04-13T10:35:23 IST" name="Test search in Chrome" finished-at="2024-04-13T10:36:08 IST" duration-ms="45349">
       <class name="testScenario.TC_CruisePage">
-        <test-method signature="moveToMoreTestCase()[pri:11, instance:testScenario.TC_CruisePage@2663e964]" started-at="2024-04-13T10:08:10 IST" name="moveToMoreTestCase" finished-at="2024-04-13T10:08:11 IST" duration-ms="337" status="PASS">
+        <test-method signature="moveToMoreTestCase()[pri:11, instance:testScenario.TC_CruisePage@37911f88]" started-at="2024-04-13T10:35:55 IST" name="moveToMoreTestCase" finished-at="2024-04-13T10:35:56 IST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToMoreTestCase -->
-        <test-method signature="selectCruiseFromMoreListTestCase()[pri:12, instance:testScenario.TC_CruisePage@2663e964]" started-at="2024-04-13T10:08:11 IST" name="selectCruiseFromMoreListTestCase" finished-at="2024-04-13T10:08:11 IST" duration-ms="611" status="PASS">
+        <test-method signature="selectCruiseFromMoreListTestCase()[pri:12, instance:testScenario.TC_CruisePage@37911f88]" started-at="2024-04-13T10:35:56 IST" name="selectCruiseFromMoreListTestCase" finished-at="2024-04-13T10:35:56 IST" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCruiseFromMoreListTestCase -->
-        <test-method signature="clickonReadMoreTestCase()[pri:13, instance:testScenario.TC_CruisePage@2663e964]" started-at="2024-04-13T10:08:11 IST" name="clickonReadMoreTestCase" finished-at="2024-04-13T10:08:12 IST" duration-ms="1101" status="PASS">
+        <test-method signature="clickonReadMoreTestCase()[pri:13, instance:testScenario.TC_CruisePage@37911f88]" started-at="2024-04-13T10:35:56 IST" name="clickonReadMoreTestCase" finished-at="2024-04-13T10:35:57 IST" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonReadMoreTestCase -->
-        <test-method signature="printInclusionPointsTestCase()[pri:15, instance:testScenario.TC_CruisePage@2663e964]" started-at="2024-04-13T10:08:12 IST" name="printInclusionPointsTestCase" finished-at="2024-04-13T10:08:13 IST" duration-ms="201" status="PASS">
+        <test-method signature="printInclusionPointsTestCase()[pri:15, instance:testScenario.TC_CruisePage@37911f88]" started-at="2024-04-13T10:35:57 IST" name="printInclusionPointsTestCase" finished-at="2024-04-13T10:35:57 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printInclusionPointsTestCase -->
-        <test-method signature="navigate2TestCase()[pri:16, instance:testScenario.TC_CruisePage@2663e964]" started-at="2024-04-13T10:08:13 IST" name="navigate2TestCase" finished-at="2024-04-13T10:08:14 IST" duration-ms="1397" status="PASS">
+        <test-method signature="navigate2TestCase()[pri:16, instance:testScenario.TC_CruisePage@37911f88]" started-at="2024-04-13T10:35:57 IST" name="navigate2TestCase" finished-at="2024-04-13T10:35:59 IST" duration-ms="1384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate2TestCase -->
       </class> <!-- testScenario.TC_CruisePage -->
       <class name="testScenario.TC_HotelsPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:35 IST" name="setup" finished-at="2024-04-13T10:07:42 IST" duration-ms="7579" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickonHotelsTestCase()[pri:0, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:43 IST" name="clickonHotelsTestCase" finished-at="2024-04-13T10:07:46 IST" duration-ms="3368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickonHotelsTestCase -->
-        <test-method signature="selectCityTestCase()[pri:1, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:46 IST" name="selectCityTestCase" finished-at="2024-04-13T10:07:49 IST" duration-ms="3482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectCityTestCase -->
-        <test-method signature="selectCheckoutDateTestCase()[pri:2, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:49 IST" name="selectCheckoutDateTestCase" finished-at="2024-04-13T10:07:51 IST" duration-ms="1179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectCheckoutDateTestCase -->
-        <test-method signature="clickonTravellerDropDownTestCase()[pri:3, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:51 IST" name="clickonTravellerDropDownTestCase" finished-at="2024-04-13T10:07:51 IST" duration-ms="96" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickonTravellerDropDownTestCase -->
-        <test-method signature="addTravellersTestCase()[pri:4, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:51 IST" name="addTravellersTestCase" finished-at="2024-04-13T10:07:51 IST" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addTravellersTestCase -->
-        <test-method signature="clickonSearchButtonTestCase()[pri:5, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:51 IST" name="clickonSearchButtonTestCase" finished-at="2024-04-13T10:07:57 IST" duration-ms="5793" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickonSearchButtonTestCase -->
-        <test-method signature="clickonUserRatingTestCase()[pri:6, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:57 IST" name="clickonUserRatingTestCase" finished-at="2024-04-13T10:07:57 IST" duration-ms="315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickonUserRatingTestCase -->
-        <test-method signature="selectAllAminitiesTestCase()[pri:7, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:07:57 IST" name="selectAllAminitiesTestCase" finished-at="2024-04-13T10:08:06 IST" duration-ms="9197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectAllAminitiesTestCase -->
-        <test-method signature="displayHotelNamesAndPricesTestCase()[pri:8, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:08:06 IST" name="displayHotelNamesAndPricesTestCase" finished-at="2024-04-13T10:08:09 IST" duration-ms="3180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- displayHotelNamesAndPricesTestCase -->
-        <test-method signature="navigateHomepageTestCase()[pri:10, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:08:09 IST" name="navigateHomepageTestCase" finished-at="2024-04-13T10:08:10 IST" duration-ms="1103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateHomepageTestCase -->
-        <test-method is-config="true" signature="driverTearDown()[pri:0, instance:testScenario.TC_HotelsPage@2bec854f]" started-at="2024-04-13T10:08:20 IST" name="driverTearDown" finished-at="2024-04-13T10:08:24 IST" duration-ms="4311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverTearDown -->
-      </class> <!-- testScenario.TC_HotelsPage -->
-      <class name="testScenario.TC_GiftVoucherPage">
-        <test-method signature="moveToMore2TestCase()[pri:17, instance:testScenario.TC_GiftVoucherPage@48b67364]" started-at="2024-04-13T10:08:14 IST" name="moveToMore2TestCase" finished-at="2024-04-13T10:08:14 IST" duration-ms="290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moveToMore2TestCase -->
-        <test-method signature="selectGiftFromMoreListTestCase()[pri:18, instance:testScenario.TC_GiftVoucherPage@48b67364]" started-at="2024-04-13T10:08:14 IST" name="selectGiftFromMoreListTestCase" finished-at="2024-04-13T10:08:15 IST" duration-ms="854" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectGiftFromMoreListTestCase -->
-        <test-method signature="switchToGiftVoucherTestCase()[pri:19, instance:testScenario.TC_GiftVoucherPage@48b67364]" started-at="2024-04-13T10:08:15 IST" name="switchToGiftVoucherTestCase" finished-at="2024-04-13T10:08:15 IST" duration-ms="69" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switchToGiftVoucherTestCase -->
-        <test-method signature="checkForPhoneToolTipTestCase()[pri:21, instance:testScenario.TC_GiftVoucherPage@48b67364]" started-at="2024-04-13T10:08:15 IST" name="checkForPhoneToolTipTestCase" finished-at="2024-04-13T10:08:18 IST" duration-ms="3126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkForPhoneToolTipTestCase -->
-        <test-method signature="checkForEmailToolTipTestCase()[pri:22, instance:testScenario.TC_GiftVoucherPage@48b67364]" started-at="2024-04-13T10:08:18 IST" name="checkForEmailToolTipTestCase" finished-at="2024-04-13T10:08:20 IST" duration-ms="1661" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkForEmailToolTipTestCase -->
-      </class> <!-- testScenario.TC_GiftVoucherPage -->
-    </test> <!-- Test search in Edge -->
-    <test started-at="2024-04-13T10:08:24 IST" name="Test search in Chrome" finished-at="2024-04-13T10:09:08 IST" duration-ms="44015">
-      <class name="testScenario.TC_CruisePage">
-        <test-method signature="moveToMoreTestCase()[pri:11, instance:testScenario.TC_CruisePage@7f8a9499]" started-at="2024-04-13T10:08:54 IST" name="moveToMoreTestCase" finished-at="2024-04-13T10:08:55 IST" duration-ms="317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moveToMoreTestCase -->
-        <test-method signature="selectCruiseFromMoreListTestCase()[pri:12, instance:testScenario.TC_CruisePage@7f8a9499]" started-at="2024-04-13T10:08:55 IST" name="selectCruiseFromMoreListTestCase" finished-at="2024-04-13T10:08:56 IST" duration-ms="837" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectCruiseFromMoreListTestCase -->
-        <test-method signature="clickonReadMoreTestCase()[pri:13, instance:testScenario.TC_CruisePage@7f8a9499]" started-at="2024-04-13T10:08:56 IST" name="clickonReadMoreTestCase" finished-at="2024-04-13T10:08:57 IST" duration-ms="984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickonReadMoreTestCase -->
-        <test-method signature="printInclusionPointsTestCase()[pri:15, instance:testScenario.TC_CruisePage@7f8a9499]" started-at="2024-04-13T10:08:57 IST" name="printInclusionPointsTestCase" finished-at="2024-04-13T10:08:57 IST" duration-ms="191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printInclusionPointsTestCase -->
-        <test-method signature="navigate2TestCase()[pri:16, instance:testScenario.TC_CruisePage@7f8a9499]" started-at="2024-04-13T10:08:57 IST" name="navigate2TestCase" finished-at="2024-04-13T10:08:58 IST" duration-ms="1293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigate2TestCase -->
-      </class> <!-- testScenario.TC_CruisePage -->
-      <class name="testScenario.TC_HotelsPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:24 IST" name="setup" finished-at="2024-04-13T10:08:31 IST" duration-ms="6267" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:23 IST" name="setup" finished-at="2024-04-13T10:35:31 IST" duration-ms="7564" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,59 +40,162 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickonHotelsTestCase()[pri:0, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:31 IST" name="clickonHotelsTestCase" finished-at="2024-04-13T10:08:31 IST" duration-ms="190" status="PASS">
+        <test-method signature="clickonHotelsTestCase()[pri:0, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:31 IST" name="clickonHotelsTestCase" finished-at="2024-04-13T10:35:31 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonHotelsTestCase -->
-        <test-method signature="selectCityTestCase()[pri:1, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:31 IST" name="selectCityTestCase" finished-at="2024-04-13T10:08:34 IST" duration-ms="3334" status="PASS">
+        <test-method signature="selectCityTestCase()[pri:1, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:31 IST" name="selectCityTestCase" finished-at="2024-04-13T10:35:34 IST" duration-ms="3416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCityTestCase -->
-        <test-method signature="selectCheckoutDateTestCase()[pri:2, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:34 IST" name="selectCheckoutDateTestCase" finished-at="2024-04-13T10:08:35 IST" duration-ms="1144" status="PASS">
+        <test-method signature="selectCheckoutDateTestCase()[pri:2, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:34 IST" name="selectCheckoutDateTestCase" finished-at="2024-04-13T10:35:35 IST" duration-ms="1094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCheckoutDateTestCase -->
-        <test-method signature="clickonTravellerDropDownTestCase()[pri:3, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:35 IST" name="clickonTravellerDropDownTestCase" finished-at="2024-04-13T10:08:36 IST" duration-ms="124" status="PASS">
+        <test-method signature="clickonTravellerDropDownTestCase()[pri:3, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:35 IST" name="clickonTravellerDropDownTestCase" finished-at="2024-04-13T10:35:36 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonTravellerDropDownTestCase -->
-        <test-method signature="addTravellersTestCase()[pri:4, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:36 IST" name="addTravellersTestCase" finished-at="2024-04-13T10:08:36 IST" duration-ms="181" status="PASS">
+        <test-method signature="addTravellersTestCase()[pri:4, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:36 IST" name="addTravellersTestCase" finished-at="2024-04-13T10:35:36 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTravellersTestCase -->
-        <test-method signature="clickonSearchButtonTestCase()[pri:5, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:36 IST" name="clickonSearchButtonTestCase" finished-at="2024-04-13T10:08:41 IST" duration-ms="5457" status="PASS">
+        <test-method signature="clickonSearchButtonTestCase()[pri:5, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:36 IST" name="clickonSearchButtonTestCase" finished-at="2024-04-13T10:35:41 IST" duration-ms="5593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonSearchButtonTestCase -->
-        <test-method signature="clickonUserRatingTestCase()[pri:6, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:41 IST" name="clickonUserRatingTestCase" finished-at="2024-04-13T10:08:42 IST" duration-ms="470" status="PASS">
+        <test-method signature="clickonUserRatingTestCase()[pri:6, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:41 IST" name="clickonUserRatingTestCase" finished-at="2024-04-13T10:35:42 IST" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonUserRatingTestCase -->
-        <test-method signature="selectAllAminitiesTestCase()[pri:7, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:42 IST" name="selectAllAminitiesTestCase" finished-at="2024-04-13T10:08:50 IST" duration-ms="8548" status="FAIL">
+        <test-method signature="selectAllAminitiesTestCase()[pri:7, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:42 IST" name="selectAllAminitiesTestCase" finished-at="2024-04-13T10:35:51 IST" duration-ms="9104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllAminitiesTestCase -->
+        <test-method signature="displayHotelNamesAndPricesTestCase()[pri:8, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:51 IST" name="displayHotelNamesAndPricesTestCase" finished-at="2024-04-13T10:35:54 IST" duration-ms="3287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayHotelNamesAndPricesTestCase -->
+        <test-method signature="navigateHomepageTestCase()[pri:10, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:35:54 IST" name="navigateHomepageTestCase" finished-at="2024-04-13T10:35:55 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomepageTestCase -->
+        <test-method is-config="true" signature="driverTearDown()[pri:0, instance:testScenario.TC_HotelsPage@72ade7e3]" started-at="2024-04-13T10:36:05 IST" name="driverTearDown" finished-at="2024-04-13T10:36:08 IST" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverTearDown -->
+      </class> <!-- testScenario.TC_HotelsPage -->
+      <class name="testScenario.TC_GiftVoucherPage">
+        <test-method signature="moveToMore2TestCase()[pri:17, instance:testScenario.TC_GiftVoucherPage@6f1c29b7]" started-at="2024-04-13T10:35:59 IST" name="moveToMore2TestCase" finished-at="2024-04-13T10:35:59 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToMore2TestCase -->
+        <test-method signature="selectGiftFromMoreListTestCase()[pri:18, instance:testScenario.TC_GiftVoucherPage@6f1c29b7]" started-at="2024-04-13T10:35:59 IST" name="selectGiftFromMoreListTestCase" finished-at="2024-04-13T10:36:00 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGiftFromMoreListTestCase -->
+        <test-method signature="switchToGiftVoucherTestCase()[pri:19, instance:testScenario.TC_GiftVoucherPage@6f1c29b7]" started-at="2024-04-13T10:36:00 IST" name="switchToGiftVoucherTestCase" finished-at="2024-04-13T10:36:00 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToGiftVoucherTestCase -->
+        <test-method signature="checkForPhoneToolTipTestCase()[pri:21, instance:testScenario.TC_GiftVoucherPage@6f1c29b7]" started-at="2024-04-13T10:36:00 IST" name="checkForPhoneToolTipTestCase" finished-at="2024-04-13T10:36:03 IST" duration-ms="3579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForPhoneToolTipTestCase -->
+        <test-method signature="checkForEmailToolTipTestCase()[pri:22, instance:testScenario.TC_GiftVoucherPage@6f1c29b7]" started-at="2024-04-13T10:36:03 IST" name="checkForEmailToolTipTestCase" finished-at="2024-04-13T10:36:05 IST" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForEmailToolTipTestCase -->
+      </class> <!-- testScenario.TC_GiftVoucherPage -->
+    </test> <!-- Test search in Chrome -->
+    <test started-at="2024-04-13T10:36:08 IST" name="Test search in Edge" finished-at="2024-04-13T10:36:55 IST" duration-ms="46338">
+      <class name="testScenario.TC_CruisePage">
+        <test-method signature="moveToMoreTestCase()[pri:11, instance:testScenario.TC_CruisePage@28b46423]" started-at="2024-04-13T10:36:40 IST" name="moveToMoreTestCase" finished-at="2024-04-13T10:36:41 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToMoreTestCase -->
+        <test-method signature="selectCruiseFromMoreListTestCase()[pri:12, instance:testScenario.TC_CruisePage@28b46423]" started-at="2024-04-13T10:36:41 IST" name="selectCruiseFromMoreListTestCase" finished-at="2024-04-13T10:36:41 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruiseFromMoreListTestCase -->
+        <test-method signature="clickonReadMoreTestCase()[pri:13, instance:testScenario.TC_CruisePage@28b46423]" started-at="2024-04-13T10:36:41 IST" name="clickonReadMoreTestCase" finished-at="2024-04-13T10:36:42 IST" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonReadMoreTestCase -->
+        <test-method signature="printInclusionPointsTestCase()[pri:15, instance:testScenario.TC_CruisePage@28b46423]" started-at="2024-04-13T10:36:42 IST" name="printInclusionPointsTestCase" finished-at="2024-04-13T10:36:42 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printInclusionPointsTestCase -->
+        <test-method signature="navigate2TestCase()[pri:16, instance:testScenario.TC_CruisePage@28b46423]" started-at="2024-04-13T10:36:42 IST" name="navigate2TestCase" finished-at="2024-04-13T10:36:44 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate2TestCase -->
+      </class> <!-- testScenario.TC_CruisePage -->
+      <class name="testScenario.TC_HotelsPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:08 IST" name="setup" finished-at="2024-04-13T10:36:16 IST" duration-ms="7468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonHotelsTestCase()[pri:0, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:16 IST" name="clickonHotelsTestCase" finished-at="2024-04-13T10:36:16 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonHotelsTestCase -->
+        <test-method signature="selectCityTestCase()[pri:1, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:16 IST" name="selectCityTestCase" finished-at="2024-04-13T10:36:20 IST" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCityTestCase -->
+        <test-method signature="selectCheckoutDateTestCase()[pri:2, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:20 IST" name="selectCheckoutDateTestCase" finished-at="2024-04-13T10:36:21 IST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckoutDateTestCase -->
+        <test-method signature="clickonTravellerDropDownTestCase()[pri:3, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:21 IST" name="clickonTravellerDropDownTestCase" finished-at="2024-04-13T10:36:21 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonTravellerDropDownTestCase -->
+        <test-method signature="addTravellersTestCase()[pri:4, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:21 IST" name="addTravellersTestCase" finished-at="2024-04-13T10:36:21 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTravellersTestCase -->
+        <test-method signature="clickonSearchButtonTestCase()[pri:5, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:21 IST" name="clickonSearchButtonTestCase" finished-at="2024-04-13T10:36:27 IST" duration-ms="5895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSearchButtonTestCase -->
+        <test-method signature="clickonUserRatingTestCase()[pri:6, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:27 IST" name="clickonUserRatingTestCase" finished-at="2024-04-13T10:36:27 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonUserRatingTestCase -->
+        <test-method signature="selectAllAminitiesTestCase()[pri:7, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:27 IST" name="selectAllAminitiesTestCase" finished-at="2024-04-13T10:36:36 IST" duration-ms="8508" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=121.0.6167.86)
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=123.0.2420.81)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b5b6c5d282d260049738d7751087ab3, getElementText {id=982B3447849B75F2F2F269D16D5EF050_element_515}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61445/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5b5b6c5d282d260049738d7751087ab3)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
-Session ID: 5b5b6c5d282d260049738d7751087ab3]]>
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6304277aac03bd373a8c619f56fdd29e, getElementText {id=f.63DFA1DDC8047040CFDB1239C053726E.d.2BAE8E19CF199549DB7FEE1890226221.e.527}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63287}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63287/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6304277aac03bd373a8c619f56fdd29e)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
+Session ID: 6304277aac03bd373a8c619f56fdd29e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=121.0.6167.86)
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=123.0.2420.81)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b5b6c5d282d260049738d7751087ab3, getElementText {id=982B3447849B75F2F2F269D16D5EF050_element_515}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61445/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5b5b6c5d282d260049738d7751087ab3)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
-Session ID: 5b5b6c5d282d260049738d7751087ab3
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6304277aac03bd373a8c619f56fdd29e, getElementText {id=f.63DFA1DDC8047040CFDB1239C053726E.d.2BAE8E19CF199549DB7FEE1890226221.e.527}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63287}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63287/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6304277aac03bd373a8c619f56fdd29e)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
+Session ID: 6304277aac03bd373a8c619f56fdd29e
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -246,41 +246,41 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectAllAminitiesTestCase -->
-        <test-method signature="displayHotelNamesAndPricesTestCase()[pri:8, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:50 IST" name="displayHotelNamesAndPricesTestCase" finished-at="2024-04-13T10:08:53 IST" duration-ms="3289" status="PASS">
+        <test-method signature="displayHotelNamesAndPricesTestCase()[pri:8, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:36 IST" name="displayHotelNamesAndPricesTestCase" finished-at="2024-04-13T10:36:39 IST" duration-ms="3205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayHotelNamesAndPricesTestCase -->
-        <test-method signature="navigateHomepageTestCase()[pri:10, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:08:53 IST" name="navigateHomepageTestCase" finished-at="2024-04-13T10:08:54 IST" duration-ms="973" status="PASS">
+        <test-method signature="navigateHomepageTestCase()[pri:10, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:39 IST" name="navigateHomepageTestCase" finished-at="2024-04-13T10:36:40 IST" duration-ms="1499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateHomepageTestCase -->
-        <test-method is-config="true" signature="driverTearDown()[pri:0, instance:testScenario.TC_HotelsPage@2b72cb8a]" started-at="2024-04-13T10:09:05 IST" name="driverTearDown" finished-at="2024-04-13T10:09:08 IST" duration-ms="3351" status="PASS">
+        <test-method is-config="true" signature="driverTearDown()[pri:0, instance:testScenario.TC_HotelsPage@4e07b95f]" started-at="2024-04-13T10:36:50 IST" name="driverTearDown" finished-at="2024-04-13T10:36:55 IST" duration-ms="4529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverTearDown -->
       </class> <!-- testScenario.TC_HotelsPage -->
       <class name="testScenario.TC_GiftVoucherPage">
-        <test-method signature="moveToMore2TestCase()[pri:17, instance:testScenario.TC_GiftVoucherPage@5d43661b]" started-at="2024-04-13T10:08:58 IST" name="moveToMore2TestCase" finished-at="2024-04-13T10:08:59 IST" duration-ms="594" status="PASS">
+        <test-method signature="moveToMore2TestCase()[pri:17, instance:testScenario.TC_GiftVoucherPage@7fc4780b]" started-at="2024-04-13T10:36:44 IST" name="moveToMore2TestCase" finished-at="2024-04-13T10:36:44 IST" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToMore2TestCase -->
-        <test-method signature="selectGiftFromMoreListTestCase()[pri:18, instance:testScenario.TC_GiftVoucherPage@5d43661b]" started-at="2024-04-13T10:08:59 IST" name="selectGiftFromMoreListTestCase" finished-at="2024-04-13T10:09:00 IST" duration-ms="1033" status="PASS">
+        <test-method signature="selectGiftFromMoreListTestCase()[pri:18, instance:testScenario.TC_GiftVoucherPage@7fc4780b]" started-at="2024-04-13T10:36:44 IST" name="selectGiftFromMoreListTestCase" finished-at="2024-04-13T10:36:45 IST" duration-ms="1167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectGiftFromMoreListTestCase -->
-        <test-method signature="switchToGiftVoucherTestCase()[pri:19, instance:testScenario.TC_GiftVoucherPage@5d43661b]" started-at="2024-04-13T10:09:00 IST" name="switchToGiftVoucherTestCase" finished-at="2024-04-13T10:09:00 IST" duration-ms="78" status="PASS">
+        <test-method signature="switchToGiftVoucherTestCase()[pri:19, instance:testScenario.TC_GiftVoucherPage@7fc4780b]" started-at="2024-04-13T10:36:45 IST" name="switchToGiftVoucherTestCase" finished-at="2024-04-13T10:36:46 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchToGiftVoucherTestCase -->
-        <test-method signature="checkForPhoneToolTipTestCase()[pri:21, instance:testScenario.TC_GiftVoucherPage@5d43661b]" started-at="2024-04-13T10:09:00 IST" name="checkForPhoneToolTipTestCase" finished-at="2024-04-13T10:09:03 IST" duration-ms="3333" status="PASS">
+        <test-method signature="checkForPhoneToolTipTestCase()[pri:21, instance:testScenario.TC_GiftVoucherPage@7fc4780b]" started-at="2024-04-13T10:36:46 IST" name="checkForPhoneToolTipTestCase" finished-at="2024-04-13T10:36:48 IST" duration-ms="2754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForPhoneToolTipTestCase -->
-        <test-method signature="checkForEmailToolTipTestCase()[pri:22, instance:testScenario.TC_GiftVoucherPage@5d43661b]" started-at="2024-04-13T10:09:03 IST" name="checkForEmailToolTipTestCase" finished-at="2024-04-13T10:09:05 IST" duration-ms="1981" status="PASS">
+        <test-method signature="checkForEmailToolTipTestCase()[pri:22, instance:testScenario.TC_GiftVoucherPage@7fc4780b]" started-at="2024-04-13T10:36:48 IST" name="checkForEmailToolTipTestCase" finished-at="2024-04-13T10:36:50 IST" duration-ms="1861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForEmailToolTipTestCase -->
       </class> <!-- testScenario.TC_GiftVoucherPage -->
-    </test> <!-- Test search in Chrome -->
+    </test> <!-- Test search in Edge -->
   </suite> <!-- Suite -->
 </testng-results>

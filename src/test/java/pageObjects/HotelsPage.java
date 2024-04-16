@@ -10,34 +10,33 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HotelsPage {
+public class HotelsPage extends BasePage{
 	WebDriver driver;
 
 	public HotelsPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 	
 	@FindBy(name = "BE_hotel_destination")
-	private static WebElement hoteldestination;
+	public static WebElement hoteldestination;
 
 	@FindBy(xpath = "//div[@class='viewport']//li")
-	private static List<WebElement> cititieslist;
+	public static List<WebElement> cititieslist;
 
 	@FindBy(id = "BE_hotel_checkout_date")
-	private static WebElement checkoutdate;
+	public static WebElement checkoutdate;
 
 	@FindBy(xpath = "//*[@id='month-scroll0']/div/div/table/tbody/tr/td")
-	private static List<WebElement> listofdates;
+	public static List<WebElement> listofdates;
 
 	@FindBy(xpath = "//i[@class='icon icon-angle-right arrowpassengerBox']")
-	private static WebElement travellerdropdown;
+	public static WebElement travellerdropdown;
 
 	@FindBy(xpath = "(//span[@class='ddSpinnerPlus'])[1]")
-	private static WebElement addtravellers;
+	public static WebElement addtravellers;
 
 	@FindBy(xpath = "//input[@id='BE_hotel_htsearch_btn']")
-	private static WebElement clickonsearchbutton;
+	public static WebElement clickonsearchbutton;
 	
 	public void selectCity(String city) throws InterruptedException {
 		Thread.sleep(1000);
