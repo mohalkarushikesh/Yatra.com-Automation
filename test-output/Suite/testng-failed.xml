@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<<<<<<< HEAD
   <test thread-count="5" name="Test search in Edge(failed)">
     <parameter name="browser" value="edge"/>
+=======
+  <test thread-count="5" name="Test search in Chrome(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+>>>>>>> 300e14270dad51d3da2c6b51a267b13b91df6fdb
     <classes>
       <class name="testScenario.TC_HotelsPage">
         <methods>
+          <include name="tearDown"/>
           <include name="selectAllAminitiesTestCase"/>
+<<<<<<< HEAD
           <include name="driverTearDown"/>
+=======
+>>>>>>> 300e14270dad51d3da2c6b51a267b13b91df6fdb
           <include name="setup"/>
         </methods>
       </class> <!-- testScenario.TC_HotelsPage -->

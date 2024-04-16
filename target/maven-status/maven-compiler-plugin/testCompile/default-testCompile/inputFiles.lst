@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com-Automation\src\test\java\testBase\BaseClass.java
 C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com-Automation\src\test\java\pageObjects\HotelsSearchPage.java
 C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com-Automation\src\test\java\pageObjects\CruisePage.java
@@ -12,3 +13,21 @@ C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com-Automation\src\test
 C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com-Automation\src\test\java\demo\SelectCity.java
 C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com-Automation\src\test\java\pageObjects\HomePage.java
 C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com-Automation\src\test\java\pageObjects\BasePage.java
+=======
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\pageObjects\HomePage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\utilities\DataProviders.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\demo\SelectCity.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\pageObjects\GiftVoucherPage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\testScenario\TC_HotelsPage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\demo\Yatra.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\testScenario\TC_CruisePage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\testScenario\TC_GiftVoucherPage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\utilities\ExtentReport.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\utilities\ScreenShot.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\pageObjects\HotelsSearchPage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\utilities\ExcelUtility.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\pageObjects\CruisePage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\testBase\BaseClass.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\pageObjects\BasePage.java
+C:\Users\2327238\eclipse-workspace\seleniumproject\Yatra.com_Automation\src\test\java\pageObjects\HotelsPage.java
+>>>>>>> 300e14270dad51d3da2c6b51a267b13b91df6fdb

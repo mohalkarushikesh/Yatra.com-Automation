@@ -9,9 +9,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public class GiftVoucherPage extends BasePage{
 	WebDriver driver;
-
+	Actions action;
+	JavascriptExecutor js;
 	public GiftVoucherPage(WebDriver driver) {
 		super(driver);
+<<<<<<< HEAD
+=======
+		action = new Actions(driver);
+		js = (JavascriptExecutor) driver;
+>>>>>>> 300e14270dad51d3da2c6b51a267b13b91df6fdb
 	}
 
 	@FindBy(id = "Name")
@@ -27,12 +33,8 @@ public class GiftVoucherPage extends BasePage{
 	public static WebElement submit;
 
 	public void checkForPhoneToolTip() throws InterruptedException {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,600)", "");
-
-		Actions action = new Actions(driver);
+		js.executeScript("window.scrollBy(0,600)", ""); 
 		action.moveToElement(phone).build().perform();
-
 		name.sendKeys("Rushikesh");
 		phone.sendKeys("3456");
 		submit.click();
@@ -43,7 +45,6 @@ public class GiftVoucherPage extends BasePage{
 	}
 
 	public void checkForEmailToolTip() throws InterruptedException {
-		Actions action = new Actions(driver);
 		action.moveToElement(phone).build().perform();
 		name.clear();
 		name.sendKeys("Rushikesh");

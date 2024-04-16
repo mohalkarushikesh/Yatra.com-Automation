@@ -45,7 +45,6 @@ public class ExtentReport extends BaseClass implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) { // interface
 		test = extent.createTest(result.getTestClass().getName());
-
 		test.log(Status.PASS, result.getName() + " got successfully executed");
 		String imgPath = ScreenShot.TakeScreenShot(driver, result.getName());
 		test.addScreenCaptureFromPath(imgPath);
