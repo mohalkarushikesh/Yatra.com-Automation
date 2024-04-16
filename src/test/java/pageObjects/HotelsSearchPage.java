@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HotelsSearchPage extends BasePage {
+
 	WebDriver driver;
 
 	public HotelsSearchPage(WebDriver driver) {
@@ -14,16 +15,16 @@ public class HotelsSearchPage extends BasePage {
 	}
 
 	@FindBy(xpath = "//a[normalize-space()='User Rating']")
-	private static WebElement clickonuserrating;
+	public static WebElement clickonuserrating;
 
 	@FindBy(xpath = "//div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label")
-	private static List<WebElement> checkboxlist;
+	public static List<WebElement> checkboxlist;
 
 	@FindBy(xpath = "//h2[@class='hotel-name full fs-18 three-dot']")
-	private static List<WebElement> hotelnamelist;
+	public static List<WebElement> hotelnamelist;
 
 	@FindBy(xpath = "//div[@class='result-details-right show-gt-768 pr']//p/span/span[2]")
-	private static List<WebElement> hotelpricelist;
+	public static List<WebElement> hotelpricelist;
 
 	public void clickonUserRating() {
 		clickonuserrating.click();

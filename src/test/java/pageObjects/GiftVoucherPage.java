@@ -10,40 +10,38 @@ import org.openqa.selenium.support.FindBy;
 
 import utilities.ExcelUtility;
 
-public class GiftVoucherPage extends BasePage{
+public class GiftVoucherPage extends BasePage {
 	WebDriver driver;
 	Actions action;
 	JavascriptExecutor js;
-	
+
 	ExcelUtility excelutility;
-	
-	
-	
+
 	public GiftVoucherPage(WebDriver driver) {
 		super(driver);
 		action = new Actions(driver);
 		js = (JavascriptExecutor) driver;
+
 	}
 
 	@FindBy(id = "Name")
-	private static WebElement name;
+	public static WebElement name;
 
 	@FindBy(id = "phone")
-	private static WebElement phone;
+	public static WebElement phone;
 
 	@FindBy(id = "email")
-	private static WebElement email;
+	public static WebElement email;
 
 	@FindBy(xpath = "//input[@value='Submit']")
-	private static WebElement submit;
+	public static WebElement submit;
 
 	public void checkForPhoneToolTip() throws InterruptedException, IOException {
 		excelutility = new ExcelUtility();
-		
-		
-		js.executeScript("window.scrollBy(0,600)", ""); 
+
+		js.executeScript("window.scrollBy(0,600)", "");
 		action.moveToElement(phone).build().perform();
-		name.sendKeys(excelutility .getCellData("Sheet1", 1, 0));
+		name.sendKeys(excelutility.getCellData("Sheet1", 1, 0));
 		phone.sendKeys(excelutility.getCellData("Sheet1", 1, 1));
 		submit.click();
 		Thread.sleep(1000);

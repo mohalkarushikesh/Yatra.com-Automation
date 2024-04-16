@@ -19,10 +19,12 @@
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>	 
-			<class name="testScenario.TC_HotelsPage" />
+			<class name="testScenario/TC_HotelsPage" />
 			<class name="testScenario.TC_CruisePage" />
 			<class name="testScenario.TC_GiftVoucherPage" />
 		</classes>
 	</test>
 
 </suite> 
+
+
