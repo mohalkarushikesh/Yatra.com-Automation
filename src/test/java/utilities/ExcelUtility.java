@@ -24,13 +24,14 @@ public class ExcelUtility {
 	public XSSFRow row;
 	public XSSFCell cell;
 	public CellStyle style;   
-	String path;
+	String path=System.getProperty("user.dir") + "\\testdata\\giftvoucheruserdetails.xlsx";
 	
+	/*
 	public ExcelUtility(String path)
 	{
 		this.path=path;
 	}
-		
+	*/	
 	public int getRowCount(String sheetName) throws IOException 
 	{
 		fi=new FileInputStream(path);

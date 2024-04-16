@@ -10,6 +10,7 @@ import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -22,11 +23,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObjects.HomePage;
 
 public class BaseClass {
 	public static WebDriver driver;
-	public Logger logger;
+	//public Logger logger; 
 	public Properties p;
+
 	@BeforeClass
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException{
@@ -35,8 +38,7 @@ public class BaseClass {
 		p = new Properties();
 		p.load(file);
 		//Loading log4j file
-		logger = LogManager.getLogger(this.getClass());
-		
+		//logger = LogManager.getLogger(this.getClass());
 		//Grid
 		if(p.getProperty("execution_env").equalsIgnoreCase("remote")){
 			DesiredCapabilities capabilites = new DesiredCapabilities();
@@ -71,7 +73,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.get(p.getProperty("appUrl"));
 	}
-
+	
 	@AfterClass
 	public void tearDown() {
 		driver.quit();

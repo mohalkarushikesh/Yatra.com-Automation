@@ -3,22 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScenario.TC_HotelsPage">
+      <class name="testrunner.TestRunner">
         <methods>
-          <include name="clickonHotelsTestCase"/>
-          <include name="selectCityTestCase"/>
-          <include name="addTravellersTestCase"/>
-          <include name="tearDown"/>
-          <include name="selectCheckoutDateTestCase"/>
-          <include name="displayHotelNamesAndPricesTestCase"/>
-          <include name="clickonSearchButtonTestCase"/>
-          <include name="clickonUserRatingTestCase"/>
-          <include name="navigateHomepageTestCase"/>
-          <include name="selectAllAminitiesTestCase"/>
-          <include name="setup"/>
-          <include name="clickonTravellerDropDownTestCase"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testScenario.TC_HotelsPage -->
+      </class> <!-- testrunner.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

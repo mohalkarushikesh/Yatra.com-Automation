@@ -10,12 +10,11 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage extends BasePage {
 	WebDriver driver;
 	Actions action;
-
+	
 	public HomePage(WebDriver driver) {
 		super(driver);
 		action = new Actions(driver);
 	}
-
 	@FindBy(id = "booking_engine_hotels")
 	public WebElement hotels;
 

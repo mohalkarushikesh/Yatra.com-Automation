@@ -1,5 +1,7 @@
 package testScenario;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -13,6 +15,7 @@ public class TC_CruisePage extends BaseClass {
 	CruisePage cruisepage;
 	ExtentReports extentreportobj = new ExtentReports();
 	String screenshotPath;
+	private static Logger logger = (Logger) LogManager.getLogger(TC_CruisePage.class);
 
 	@Test(priority = 1)
 	public void moveToMoreTestCase() {

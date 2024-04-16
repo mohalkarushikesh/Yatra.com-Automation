@@ -5,13 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testScenario.TC_HotelsPage">
+      <class name="testScenario.TC_GiftVoucherPage">
         <methods>
           <include name="tearDown"/>
-          <include name="selectAllAminitiesTestCase"/>
+          <include name="checkForPhoneToolTipTestCase"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testScenario.TC_HotelsPage -->
+      </class> <!-- testScenario.TC_GiftVoucherPage -->
     </classes>
   </test> <!-- Test search in Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

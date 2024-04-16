@@ -1,5 +1,7 @@
 package testScenario;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import pageObjects.HomePage;
@@ -13,7 +15,8 @@ public class TC_HotelsPage extends BaseClass {
 	HotelsSearchPage hotelssearchpage;
 	ExtentReports extentreportobj = new ExtentReports();
 	String screenshotPath;
-	
+	private static  Logger logger = (Logger) LogManager.getLogger(TC_HotelsPage.class);
+
 	@Test(priority = 0)
 	public void clickonHotelsTestCase() {
 		logger.info("Starting the 'clickonHotelsTestCase' test case");
@@ -44,7 +47,6 @@ public class TC_HotelsPage extends BaseClass {
 		logger.info(
 				"'clickonTravellerDropDownTestCase' test case completed: Successfully clicked on the traveller dropdown");
 	}
-
 	@Test(priority = 4)
 	public void addTravellersTestCase() {
 		logger.info("Starting the 'addTravellersTestCase' test case");
@@ -70,7 +72,10 @@ public class TC_HotelsPage extends BaseClass {
 	@Test(priority = 7)
 	public void selectAllAminitiesTestCase() throws InterruptedException {
 		logger.info("Starting the 'selectAllAminitiesTestCase' test case");
-		hotelssearchpage.selectAllAminities();
+		hotelssearchpage.selectFreeWifi();
+		hotelssearchpage.selectFreeBreakFast();
+		hotelssearchpage.selectLaundryFacilities();
+		hotelssearchpage.selectSwimmingPool();
 		logger.info("'selectAllAminitiesTestCase' test case completed: Successfully selected suggested amenities");
 	}
 

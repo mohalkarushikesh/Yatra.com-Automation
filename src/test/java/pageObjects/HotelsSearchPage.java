@@ -1,14 +1,12 @@
 package pageObjects;
 
-
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
-public class HotelsSearchPage extends BasePage{
+public class HotelsSearchPage extends BasePage {
 	WebDriver driver;
 
 	public HotelsSearchPage(WebDriver driver) {
@@ -32,24 +30,59 @@ public class HotelsSearchPage extends BasePage{
 		System.out.println("clicked on user rating");
 	}
 
-	public void selectAllAminities() throws InterruptedException {
-		Thread.sleep(8000);
-		for (int i = 0; i < checkboxlist.size(); i++) {
-			String str = checkboxlist.get(i).getText();
+	/*
+	 * public void selectAllAminities() throws InterruptedException {
+	 * Thread.sleep(8000); for (int i = 0; i < checkboxlist.size(); i++) { String
+	 * str = checkboxlist.get(i).getText(); if (str.contains("Free WiFi ")) {
+	 * checkboxlist.get(i).click(); } if (str.contains("Free Breakfast ")) {
+	 * checkboxlist.get(i).click(); } if (str.contains("Laundry facilities ")) {
+	 * checkboxlist.get(i).click(); } if (str.contains("Swimming pool ")) {
+	 * checkboxlist.get(i).click(); } }
+	 * System.out.println("selected all amenities"); }
+	 */
+
+	public void selectFreeWifi() throws InterruptedException {
+		Thread.sleep(2000);
+		for (WebElement checkbox : checkboxlist) {
+			String str = checkbox.getText();
 			if (str.contains("Free WiFi ")) {
-				checkboxlist.get(i).click();
-			}
-			if (str.contains("Free Breakfast ")) {
-				checkboxlist.get(i).click();
-			}
-			if (str.contains("Laundry facilities ")) {
-				checkboxlist.get(i).click();
-			}
-			if (str.contains("Swimming pool ")) {
-				checkboxlist.get(i).click();
+				checkbox.click();
+				break;
 			}
 		}
-		System.out.println("selected all amenities");
+	}
+
+	public void selectFreeBreakFast() throws InterruptedException {
+		Thread.sleep(2000);
+		for (WebElement checkbox : checkboxlist) {
+			String str = checkbox.getText();
+			if (str.contains("Free Breakfast ")) {
+				checkbox.click();
+				break;
+			}
+		}
+	}
+
+	public void selectLaundryFacilities() throws InterruptedException {
+		Thread.sleep(2000);
+		for (WebElement checkbox : checkboxlist) {
+			String str = checkbox.getText();
+			if (str.contains("Laundry facilities ")) {
+				checkbox.click();
+				break;
+			}
+		}
+	}
+
+	public void selectSwimmingPool() throws InterruptedException {
+		Thread.sleep(2000);
+		for (WebElement checkbox : checkboxlist) {
+			String str = checkbox.getText();
+			if (str.contains("Swimming pool ")) {
+				checkbox.click();
+				break;
+			}
+		}
 	}
 
 	public void displayHotelNamesAndPrices() {
@@ -64,6 +97,5 @@ public class HotelsSearchPage extends BasePage{
 			}
 		}
 	}
-
 
 }
