@@ -1,5 +1,5 @@
 Feature: Cruise Line Inclusion Points Retrieval As a user, I want to retrieve all inclusion points of a cruise line
-
+	@regression
   Scenario: Retrieve cruise line inclusion points
     Given I navigate to the More section
     When I select a cruise from the list and click on it

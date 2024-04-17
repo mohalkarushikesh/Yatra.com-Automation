@@ -4,7 +4,6 @@
 		<Property name="basePath">./logs</Property>
 	</Properties>
 	<Appenders>
-		<!-- where we want to generate the logs (path) -->
 		<Console name="Console" target="SYSTEM_OUT">
 			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 		</Console>
@@ -14,10 +13,9 @@
 		</RollingFile>
 	</Appenders>
 	<Loggers>
-		<!-- where we want to generate the logs (File) -->
-		<Root level="info">
+		<Root level="Info">
 			<!-- Here you can use multiple log levels All < Trace < Debug < Info < Warn < Error < Fatal < Off -->
-			<!-- <AppenderRef ref="Console"/> -->
+			<!-- <AppenderRef ref="Console" /> -->
 			<AppenderRef ref="File" />
 		</Root>
 	</Loggers>

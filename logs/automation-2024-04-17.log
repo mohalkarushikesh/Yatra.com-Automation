@@ -1,0 +1,43 @@
+15:44:30.007 [main] INFO  utilities.LoggerClass - Test case completed: 'checkForPhoneToolTip' method called successfully
+15:44:30.120 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'checkForEmailToolTip' method
+15:44:31.667 [main] INFO  utilities.LoggerClass - 'checkForEmailToolTip' method executed: Successfully checked for email tooltip
+15:44:31.667 [main] INFO  utilities.LoggerClass - Test case completed: 'checkForEmailToolTip' method called successfully
+15:47:28.134 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonHotels' method
+15:47:28.238 [main] INFO  utilities.LoggerClass - 'clickonHotels' method executed: Successfully clicked on Hotels
+15:47:28.239 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonHotels' method called successfully
+15:47:30.450 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectCity' method
+15:47:33.701 [main] INFO  utilities.LoggerClass - 'selectCity' method executed: Successfully selected the city
+15:47:33.701 [main] INFO  utilities.LoggerClass - Test case completed: 'selectCity' method called successfully
+15:47:33.909 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectCheckoutDate' method
+15:47:34.497 [main] INFO  utilities.LoggerClass - 'selectCheckoutDate' method executed: Successfully selected the checkout date
+15:47:34.497 [main] INFO  utilities.LoggerClass - Test case completed: 'selectCheckoutDate' method called successfully
+15:47:34.687 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonTravellerDropDown' method
+15:47:34.743 [main] INFO  utilities.LoggerClass - 'clickonTravellerDropDown' method executed: Successfully clicked on the traveller dropdown
+15:47:34.743 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonTravellerDropDown' method called successfully
+15:47:34.934 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'addTravellers' method
+15:47:35.029 [main] INFO  utilities.LoggerClass - 'addTravellers' method executed: Successfully added travellers
+15:47:35.029 [main] INFO  utilities.LoggerClass - Test case completed: 'addTravellers' method called successfully
+15:47:35.214 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonSearchButton' method
+15:47:37.833 [main] INFO  utilities.LoggerClass - 'clickonSearchButton' method executed: Successfully clicked on the search button
+15:47:37.833 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonSearchButton' method called successfully
+15:47:38.103 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonUserRating' method
+15:47:39.226 [main] INFO  utilities.LoggerClass - 'clickonUserRating' method executed: Successfully clicked on user rating
+15:47:39.226 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonUserRating' method called successfully
+15:47:39.414 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectFreeWifi' method
+15:47:41.920 [main] INFO  utilities.LoggerClass - 'selectFreeWifi' method executed: Successfully selected Free WiFi
+15:47:41.920 [main] INFO  utilities.LoggerClass - Test case completed: 'selectFreeWifi' method called successfully
+15:47:41.920 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectFreeBreakFast' method
+15:47:44.269 [main] INFO  utilities.LoggerClass - 'selectFreeBreakFast' method executed: Successfully selected Free Breakfast
+15:47:44.269 [main] INFO  utilities.LoggerClass - Test case completed: 'selectFreeBreakFast' method called successfully
+15:47:44.269 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectLaundryFacilities' method
+15:47:46.723 [main] INFO  utilities.LoggerClass - 'selectLaundryFacilities' method executed: Successfully selected Laundry Facilities
+15:47:46.724 [main] INFO  utilities.LoggerClass - Test case completed: 'selectLaundryFacilities' method called successfully
+15:47:46.724 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectSwimmingPool' method
+15:47:49.218 [main] INFO  utilities.LoggerClass - 'selectSwimmingPool' method executed: Successfully selected Swimming Pool
+15:47:49.218 [main] INFO  utilities.LoggerClass - Test case completed: 'selectSwimmingPool' method called successfully
+15:47:49.400 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'displayHotelNamesAndPrices' method
+15:47:49.552 [main] INFO  utilities.LoggerClass - 'displayHotelNamesAndPrices' method executed: Successfully displayed hotel names and prices
+15:47:49.552 [main] INFO  utilities.LoggerClass - Test case completed: 'displayHotelNamesAndPrices' method called successfully
+15:48:08.205 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'moveToMore' method
+15:48:08.340 [main] INFO  utilities.LoggerClass - 'moveToMore' method executed: Successfully moved to 'More'
+15:48:08.340 [main] INFO  utilities.LoggerClass - Test case completed: 'moveToMore' method called successfully

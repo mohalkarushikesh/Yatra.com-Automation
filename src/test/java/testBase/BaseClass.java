@@ -24,21 +24,22 @@ import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.HomePage;
+import utilities.LoggerClass;
 
 public class BaseClass {
 	public static WebDriver driver;
-	//public Logger logger; 
+//	public LoggerClass logger; 
 	public Properties p;
-
+	public LoggerClass logger = new LoggerClass();
+	
 	@BeforeClass
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException{
 		//Loading Properties File
 		FileReader file = new FileReader(".//src/test/resources/config.properties");
+//		logger= new LoggerClass();
 		p = new Properties();
 		p.load(file);
-		//Loading log4j file
-		//logger = LogManager.getLogger(this.getClass());
 		//Grid
 		if(p.getProperty("execution_env").equalsIgnoreCase("remote")){
 			DesiredCapabilities capabilites = new DesiredCapabilities();

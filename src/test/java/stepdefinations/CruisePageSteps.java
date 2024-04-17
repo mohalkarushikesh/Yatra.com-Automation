@@ -16,6 +16,7 @@ public class CruisePageSteps {
 	@Given("I navigate to the More section")
 	public void i_navigate_to_the_more_section() {
 	    homepage=new HomePage(Hooks.driver);
+	    
 	    homepage.moveToMore();
 	}
 

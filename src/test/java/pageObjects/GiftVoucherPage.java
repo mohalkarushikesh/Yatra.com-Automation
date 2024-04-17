@@ -9,12 +9,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import utilities.ExcelUtility;
+import utilities.LoggerClass;
 
 public class GiftVoucherPage extends BasePage {
 	WebDriver driver;
 	Actions action;
 	JavascriptExecutor js;
-
+	public LoggerClass logger = new LoggerClass();
 	ExcelUtility excelutility;
 
 	public GiftVoucherPage(WebDriver driver) {
@@ -37,8 +38,8 @@ public class GiftVoucherPage extends BasePage {
 	public static WebElement submit;
 
 	public void checkForPhoneToolTip() throws InterruptedException, IOException {
+		logger.log.info("Test case started: Calling the 'checkForPhoneToolTip' method");
 		excelutility = new ExcelUtility();
-
 		js.executeScript("window.scrollBy(0,600)", "");
 		action.moveToElement(phone).build().perform();
 		name.sendKeys(excelutility.getCellData("Sheet1", 1, 0));
@@ -47,10 +48,12 @@ public class GiftVoucherPage extends BasePage {
 		Thread.sleep(1000);
 		String phoneerr = phone.getAttribute("data-errormsg");
 		System.out.println("Phone number error message : " + phoneerr);
-
+		logger.log.info("'checkForPhoneToolTip' method executed: Successfully checked for phone tooltip");
+		logger.log.info("Test case completed: 'checkForPhoneToolTip' method called successfully");
 	}
 
 	public void checkForEmailToolTip() throws InterruptedException, IOException {
+		logger.log.info("Test case started: Calling the 'checkForEmailToolTip' method");
 		action.moveToElement(phone).build().perform();
 		name.clear();
 		name.sendKeys(excelutility.getCellData("Sheet1", 2, 0));
@@ -62,6 +65,8 @@ public class GiftVoucherPage extends BasePage {
 		Thread.sleep(1000);
 		String capturetooltip = email.getAttribute("data-errormsg");
 		System.out.println("Email error message : " + capturetooltip);
-
+		logger.log.info("'checkForEmailToolTip' method executed: Successfully checked for email tooltip");
+		logger.log.info("Test case completed: 'checkForEmailToolTip' method called successfully");
 	}
+
 }

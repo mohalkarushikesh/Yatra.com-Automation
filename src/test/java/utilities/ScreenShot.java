@@ -14,7 +14,6 @@ import org.openqa.selenium.WebDriver;
 public class ScreenShot {
 	static WebDriver driver;
 	static int i = 1;
-
 	public static String TakeScreenShot(WebDriver driver, String name) {
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;

@@ -6,14 +6,23 @@ package testrunner;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features = { "src/test/resources/Features/A_HotelsDetails.feature",
-		"src/test/resources/Features/B_CruisePage.feature",
-		"src/test/resources/Features/C_GiftVoucherPage.feature", }, glue = "stepdefinations", plugin = { "pretty"
-
-				, "html:reports/cucumberReport.html", "rerun:target/rerun.txt",
+@CucumberOptions(
+		features = { 
+				"src/test/resources/Features/A_HotelsDetails.feature",
+				"src/test/resources/Features/B_CruisePage.feature",
+				"src/test/resources/Features/C_GiftVoucherPage.feature", 
+			}, 
+		glue = "stepdefinations", 
+		plugin = { "pretty",
+				"html:reports/cucumberReport.html", 
+				"rerun:target/rerun.txt",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-
-})
+		},
+		//tags = "@smoke and @regression"		
+		tags = "@Smoke or @regression"		
+		//tags = "@Smoke",		
+		//tags = "@regression",		
+	)
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

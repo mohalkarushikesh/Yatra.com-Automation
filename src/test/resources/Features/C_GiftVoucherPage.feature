@@ -1,5 +1,5 @@
 Feature: alidate Gift Voucher Form As a user, I want to ensure that the gift voucher form correctly handles invalid data
-
+	@regression
   Scenario: Validate gift voucher form with invalid data
     Given I am on the Home page and moved to more section
     Then I have clicked on the Gift-Voucher from the list

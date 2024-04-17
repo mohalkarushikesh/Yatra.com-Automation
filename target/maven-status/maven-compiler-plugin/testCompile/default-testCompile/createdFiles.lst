@@ -1,17 +1,12 @@
-<<<<<<< HEAD
 utilities\ExtentReport.class
-demo\SelectCity.class
 pageObjects\HomePage.class
 pageObjects\GiftVoucherPage.class
 utilities\ScreenShot.class
 testBase\BaseClass.class
-demo\Yatra.class
-pageObjects\HotelsSearchPage.class
 pageObjects\CruisePage.class
 pageObjects\BasePage.class
 testScenario\TC_CruisePage.class
+pageObjects\HotelsSearchPage.class
 testScenario\TC_GiftVoucherPage.class
 pageObjects\HotelsPage.class
 testScenario\TC_HotelsPage.class
-=======
->>>>>>> 300e14270dad51d3da2c6b51a267b13b91df6fdb

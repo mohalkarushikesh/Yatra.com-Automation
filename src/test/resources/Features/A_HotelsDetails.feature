@@ -1,5 +1,5 @@
 Feature: Hotel and Cruise Booking and Gift Voucher Validation
-
+	@smoke @regression
   Scenario: Display top rated hotels with specific amenities
     Given Opening the yatra.com website, I clicked-on the ‘Hotels’ link.	 
     And I set the location to "Pune" in the location field

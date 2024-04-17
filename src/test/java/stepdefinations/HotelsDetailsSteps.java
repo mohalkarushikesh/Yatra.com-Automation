@@ -23,7 +23,7 @@ public class HotelsDetailsSteps {
 	public void i_set_the_location_to_in_the_location_field(String string) throws InterruptedException {
 		hotelspage = new HotelsPage(Hooks.driver);
 		Thread.sleep(2000);
-		hotelspage.selectCity("new york");
+		hotelspage.selectCity("pune");
 	}
 
 	@Given("I click on the check-out date field and select the date five days from the check-in date")
