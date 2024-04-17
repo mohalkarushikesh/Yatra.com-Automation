@@ -38,56 +38,63 @@ To run the tests, use the following command: 'mvn test'
 
 ### Output: [Chrome and Edge]
 ```
-clicked on hotels
+clicked on hotels link
 Pune is selected
-Check-in Date : 2024-04-13
-Check-out Date : 2024-04-17
+Check-in Date : 2024-04-18
+Check-out Date : 2024-04-22
 checkout date selected
 clicked on traveller drop down
-2 traveller added
+4 Traveller added
 clicked on search button
 clicked on user rating
-selected all amenities
-Hotel Name : Oxford Golf Resort
-Price : ₹1,96,871
-Hotel Name : Oakwood Residence Pune
-Price : ₹51,500
+Hotel Name : O Hotel Pune
+Price : ₹1,24,696
 Hotel Name : Radisson Blu Hinjawadi Pune
-Price : ₹12,25,000
+Price : ₹12,27,500
+Hotel Name : Marriott Suites Pune
+Price : ₹86,400
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 123.0.2420.97 (resolved driver for Edge 123)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\2327238\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
 INCLUSION
 2 Nights Cruise Accommodation
 Meals (as specified in the itinerary)
 Onboard Entertainment & Activities.(Some onboard activities and entertainment are chargeable)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 123.0.2420.97 (resolved driver for Edge 123)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\2327238\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
 Phone number error message : Please enter mobile number
 Email error message : Please enter your valid email id
-
-clicked on hotels
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\2327238\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
+clicked on hotels link
 Pune is selected
-Check-in Date : 2024-04-13
-Check-out Date : 2024-04-17
+Check-in Date : 2024-04-18
+Check-out Date : 2024-04-22
 checkout date selected
 clicked on traveller drop down
-2 traveller added
+4 Traveller added
 clicked on search button
 clicked on user rating
-Hotel Name : Oxford Golf Resort
-Price : ₹1,96,871
-Hotel Name : Oakwood Residence Pune
-Price : ₹51,500
+Hotel Name : Marriott Suites Pune
+Price : ₹86,400
 Hotel Name : Radisson Blu Hinjawadi Pune
-Price : ₹12,25,000
+Price : ₹12,27,500
+Hotel Name : O Hotel Pune
+Price : ₹1,24,696
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\2327238\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
 INCLUSION
 2 Nights Cruise Accommodation
 Meals (as specified in the itinerary)
 Onboard Entertainment & Activities.(Some onboard activities and entertainment are chargeable)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\2327238\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
 Phone number error message : Please enter mobile number
 Email error message : Please enter your valid email id
 
 ===============================================
 Suite
-Total tests run: 40, Passes: 39, Failures: 1, Skips: 0
+Total tests run: 40, Passes: 40, Failures: 0, Skips: 0
 ===============================================
-
 ```
 
 

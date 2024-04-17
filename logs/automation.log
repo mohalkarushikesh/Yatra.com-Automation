@@ -1,24 +1,12 @@
-15:48:08.487 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectCruiseFromMoreList' method
-15:48:09.052 [main] INFO  utilities.LoggerClass - 'selectCruiseFromMoreList' method executed: Successfully selected 'Cruise' from 'More' list
-15:48:09.052 [main] INFO  utilities.LoggerClass - Test case completed: 'selectCruiseFromMoreList' method called successfully
-15:48:09.257 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonReadMore' method
-15:48:12.759 [main] INFO  utilities.LoggerClass - 'clickonReadMore' method executed: Successfully clicked on Read More
-15:48:12.759 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonReadMore' method called successfully
-15:48:12.928 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'printInclusionPoints' method
-15:48:12.959 [main] INFO  utilities.LoggerClass - 'printInclusionPoints' method executed: Successfully printed inclusion points
-15:48:12.959 [main] INFO  utilities.LoggerClass - Test case completed: 'printInclusionPoints' method called successfully
-15:48:25.107 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'moveToMore' method
-15:48:25.247 [main] INFO  utilities.LoggerClass - 'moveToMore' method executed: Successfully moved to 'More'
-15:48:25.247 [main] INFO  utilities.LoggerClass - Test case completed: 'moveToMore' method called successfully
-15:48:25.385 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectGiftFromMoreList' method
-15:48:25.920 [main] INFO  utilities.LoggerClass - 'selectGiftFromMoreList' method executed: Successfully selected 'Gift' from 'More' list
-15:48:25.920 [main] INFO  utilities.LoggerClass - Test case completed: 'selectGiftFromMoreList' method called successfully
-15:48:26.093 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'switchToGiftVoucher' method
-15:48:26.115 [main] INFO  utilities.LoggerClass - 'switchToGiftVoucher' method executed: Successfully switched to 'Gift Voucher'
-15:48:26.115 [main] INFO  utilities.LoggerClass - Test case completed: 'switchToGiftVoucher' method called successfully
-15:48:28.090 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'checkForPhoneToolTip' method
-15:48:30.361 [main] INFO  utilities.LoggerClass - 'checkForPhoneToolTip' method executed: Successfully checked for phone tooltip
-15:48:30.361 [main] INFO  utilities.LoggerClass - Test case completed: 'checkForPhoneToolTip' method called successfully
-15:48:30.466 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'checkForEmailToolTip' method
-15:48:32.127 [main] INFO  utilities.LoggerClass - 'checkForEmailToolTip' method executed: Successfully checked for email tooltip
-15:48:32.127 [main] INFO  utilities.LoggerClass - Test case completed: 'checkForEmailToolTip' method called successfully
+20:33:53.975 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectGiftFromMoreList' method
+20:33:54.975 [main] INFO  utilities.LoggerClass - 'selectGiftFromMoreList' method executed: Successfully selected 'Gift' from 'More' list
+20:33:54.990 [main] INFO  utilities.LoggerClass - Test case completed: 'selectGiftFromMoreList' method called successfully
+20:33:55.219 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'switchToGiftVoucher' method
+20:33:55.254 [main] INFO  utilities.LoggerClass - 'switchToGiftVoucher' method executed: Successfully switched to 'Gift Voucher'
+20:33:55.254 [main] INFO  utilities.LoggerClass - Test case completed: 'switchToGiftVoucher' method called successfully
+20:33:57.609 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'checkForPhoneToolTip' method
+20:33:59.546 [main] INFO  utilities.LoggerClass - 'checkForPhoneToolTip' method executed: Successfully checked for phone tooltip
+20:33:59.547 [main] INFO  utilities.LoggerClass - Test case completed: 'checkForPhoneToolTip' method called successfully
+20:33:59.684 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'checkForEmailToolTip' method
+20:34:01.333 [main] INFO  utilities.LoggerClass - 'checkForEmailToolTip' method executed: Successfully checked for email tooltip
+20:34:01.333 [main] INFO  utilities.LoggerClass - Test case completed: 'checkForEmailToolTip' method called successfully
