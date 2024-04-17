@@ -11,17 +11,21 @@ import io.cucumber.testng.CucumberOptions;
 				"src/test/resources/Features/A_HotelsDetails.feature",
 				"src/test/resources/Features/B_CruisePage.feature",
 				"src/test/resources/Features/C_GiftVoucherPage.feature", 
-			}, 
-		glue = "stepdefinations", 
+			},
+		// features = {"@target/return.txt"},
+		glue = "stepdefinations",  // gherkins keywords
 		plugin = { "pretty",
-				"html:reports/cucumberReport.html", 
+				"html:reports/cucumberReport.html", // cucumber junit report
 				"rerun:target/rerun.txt",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" // third party report 
 		},
+		dryRun=false, // if true checks for association of methods in step definations 
+		monochrome=true, // avoid junk characters in output
+		publish=true,	// publish report in cucumber server
 		//tags = "@smoke and @regression"		
-		tags = "@Smoke or @regression"		
+		tags = "@Smoke or @regression"	
 		//tags = "@Smoke",		
-		//tags = "@regression",		
+		//tags = "@regression",	
 	)
 public class TestRunner extends AbstractTestNGCucumberTests {
 

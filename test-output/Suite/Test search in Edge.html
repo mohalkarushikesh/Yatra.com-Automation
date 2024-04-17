@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test search in Edge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 17 20:31:17 IST 2024</td>
+<td>Started on:</td><td>Wed Apr 17 21:43:11 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>85 seconds (85342 ms)</td>
+<tr><td>Total time:</td><td>76 seconds (76247 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,103 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.clickonUserRatingTestCase()'><b>clickonUserRatingTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: MicrosoftEdge=123.0.2420.97)
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [7665dbd3fded12160f3184fb9fe143d3, clickElement {id=f.5C55305133DC6F8C6A7456766DFA7346.d.3EBEBC93DA7E918E040A81C4C697ECEC.e.283}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.97, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61702}, msedge: {msedgedriverVersion: 123.0.2420.97 (ba5f45140663..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61702/devtoo..., se:cdpVersion: 123.0.2420.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (7665dbd3fded12160f3184fb9fe143d3)] -&gt; xpath: //a[normalize-space()=&apos;User Rating&apos;]]
-Session ID: 7665dbd3fded12160f3184fb9fe143d3
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.HotelsSearchPage.clickonUserRating(HotelsSearchPage.java:33)
-	at testScenario.TC_HotelsPage.clickonUserRatingTestCase(TC_HotelsPage.java:52)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1589745212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1589745212'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: MicrosoftEdge=123.0.2420.97)
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [7665dbd3fded12160f3184fb9fe143d3, clickElement {id=f.5C55305133DC6F8C6A7456766DFA7346.d.3EBEBC93DA7E918E040A81C4C697ECEC.e.283}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.97, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61702}, msedge: {msedgedriverVersion: 123.0.2420.97 (ba5f45140663..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61702/devtoo..., se:cdpVersion: 123.0.2420.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (7665dbd3fded12160f3184fb9fe143d3)] -&gt; xpath: //a[normalize-space()=&apos;User Rating&apos;]]
-Session ID: 7665dbd3fded12160f3184fb9fe143d3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.HotelsSearchPage.clickonUserRating(HotelsSearchPage.java:33)
-	at testScenario.TC_HotelsPage.clickonUserRatingTestCase(TC_HotelsPage.java:52)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>10</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -173,100 +76,20 @@ Session ID: 7665dbd3fded12160f3184fb9fe143d3
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScenario.TC_HotelsPage.selectCheckoutDateTestCase()'><b>selectCheckoutDateTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate gift voucher form with invalid data", "alidate Gift Voucher Form As a user, I want to ensure that the gift voucher form correctly handles invalid data"</td>
 <td></td>
-<td>0</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
+<td>17</td>
+<td>testrunner.TestRunner@38467116</td></tr>
 <tr>
-<td title='testScenario.TC_HotelsPage.selectCityTestCase()'><b>selectCityTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display top rated hotels with specific amenities", "Hotel and Cruise Booking and Gift Voucher Validation"</td>
 <td></td>
-<td>3</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
+<td>42</td>
+<td>testrunner.TestRunner@38467116</td></tr>
 <tr>
-<td title='testScenario.TC_CruisePage.navigate2TestCase()'><b>navigate2TestCase</b><br>Test class: testScenario.TC_CruisePage</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieve cruise line inclusion points", "Cruise Line Inclusion Points Retrieval As a user, I want to retrieve all inclusion points of a cruise line"</td>
 <td></td>
-<td>4</td>
-<td>testScenario.TC_CruisePage@255990cc</td></tr>
-<tr>
-<td title='testScenario.TC_CruisePage.selectCruiseFromMoreListTestCase()'><b>selectCruiseFromMoreListTestCase</b><br>Test class: testScenario.TC_CruisePage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_CruisePage@255990cc</td></tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.clickonHotelsTestCase()'><b>clickonHotelsTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td></td>
-<td>6</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
-<tr>
-<td title='testScenario.TC_CruisePage.printInclusionPointsTestCase()'><b>printInclusionPointsTestCase</b><br>Test class: testScenario.TC_CruisePage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_CruisePage@255990cc</td></tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.displayHotelNamesAndPricesTestCase()'><b>displayHotelNamesAndPricesTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td></td>
-<td>3</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.navigateHomepageTestCase()'><b>navigateHomepageTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td></td>
-<td>2</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
-<tr>
-<td title='testScenario.TC_GiftVoucherPage.selectGiftFromMoreListTestCase()'><b>selectGiftFromMoreListTestCase</b><br>Test class: testScenario.TC_GiftVoucherPage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_GiftVoucherPage@51c929ae</td></tr>
-<tr>
-<td title='testScenario.TC_GiftVoucherPage.checkForPhoneToolTipTestCase()'><b>checkForPhoneToolTipTestCase</b><br>Test class: testScenario.TC_GiftVoucherPage</td>
-<td></td>
-<td>2</td>
-<td>testScenario.TC_GiftVoucherPage@51c929ae</td></tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.clickonSearchButtonTestCase()'><b>clickonSearchButtonTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td></td>
-<td>2</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
-<tr>
-<td title='testScenario.TC_GiftVoucherPage.switchToGiftVoucherTestCase()'><b>switchToGiftVoucherTestCase</b><br>Test class: testScenario.TC_GiftVoucherPage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_GiftVoucherPage@51c929ae</td></tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.addTravellersTestCase()'><b>addTravellersTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
-<tr>
-<td title='testScenario.TC_GiftVoucherPage.checkForEmailToolTipTestCase()'><b>checkForEmailToolTipTestCase</b><br>Test class: testScenario.TC_GiftVoucherPage</td>
-<td></td>
-<td>1</td>
-<td>testScenario.TC_GiftVoucherPage@51c929ae</td></tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.clickonTravellerDropDownTestCase()'><b>clickonTravellerDropDownTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
-<tr>
-<td title='testScenario.TC_CruisePage.moveToMoreTestCase()'><b>moveToMoreTestCase</b><br>Test class: testScenario.TC_CruisePage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_CruisePage@255990cc</td></tr>
-<tr>
-<td title='testScenario.TC_GiftVoucherPage.moveToMore2TestCase()'><b>moveToMore2TestCase</b><br>Test class: testScenario.TC_GiftVoucherPage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_GiftVoucherPage@51c929ae</td></tr>
-<tr>
-<td title='testScenario.TC_CruisePage.clickonReadMoreTestCase()'><b>clickonReadMoreTestCase</b><br>Test class: testScenario.TC_CruisePage</td>
-<td></td>
-<td>1</td>
-<td>testScenario.TC_CruisePage@255990cc</td></tr>
-<tr>
-<td title='testScenario.TC_HotelsPage.selectAllAminitiesTestCase()'><b>selectAllAminitiesTestCase</b><br>Test class: testScenario.TC_HotelsPage</td>
-<td></td>
-<td>10</td>
-<td>testScenario.TC_HotelsPage@4d157787</td></tr>
+<td>11</td>
+<td>testrunner.TestRunner@38467116</td></tr>
 </table><p>
 </body>
 </html>
