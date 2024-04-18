@@ -42,6 +42,7 @@ public class Hooks {
 		br = p.getProperty("browser");
 		// Grid
 		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+			System.out.println("Browser started successfully");
 			DesiredCapabilities capabilites = new DesiredCapabilities();
 			switch (br.toLowerCase()) {
 			case "chrome":
@@ -55,6 +56,7 @@ public class Hooks {
 			}
 			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilites);
 		} else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
+			System.out.println("Browser started successfully");
 			if (br.equalsIgnoreCase("chrome")) {
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--disable-notifications");
@@ -62,6 +64,8 @@ public class Hooks {
 				driver = new ChromeDriver(options);
 			}
 			if (br.equalsIgnoreCase("edge")) {
+
+				System.out.println("Browser started successfully");
 				WebDriverManager.edgedriver().setup();
 				EdgeOptions options = new EdgeOptions();
 				options.addArguments("--start-maximized");
@@ -76,24 +80,28 @@ public class Hooks {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get(p.getProperty("appUrl"));
+		System.out.println(
+				"=====================================================================================================================");
 	}
 
 	@After
 	public void tearDown() {
 		driver.quit();
+		System.out.println("Browser closed successfully");
+		System.out.println(
+				"=====================================================================================================================");
 	}
-	
+
 	@AfterStep
-    public void addScreenshot(Scenario scenario) {
-        if(scenario.isFailed()) {
-        	TakesScreenshot ts=(TakesScreenshot) driver;
-        	byte[] screenshot=ts.getScreenshotAs(OutputType.BYTES);
-        	scenario.attach(screenshot, "image/png",scenario.getName());
-        }
-        else {
-        	TakesScreenshot ts=(TakesScreenshot) driver;
-        	byte[] screenshot=ts.getScreenshotAs(OutputType.BYTES);
-        	scenario.attach(screenshot, "image/png",scenario.getName());
-        }
-    }
+	public void addScreenshot(Scenario scenario) {
+		if (scenario.isFailed()) {
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshot, "image/png", scenario.getName());
+		} else {
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshot, "image/png", scenario.getName());
+		}
+	}
 }

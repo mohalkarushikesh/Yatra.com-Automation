@@ -1,0 +1,44 @@
+15:42:26.820 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonSearchButton' method called successfully
+15:42:27.165 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonUserRating' method
+15:42:27.265 [main] INFO  utilities.LoggerClass - 'clickonUserRating' method executed: Successfully clicked on user rating
+15:42:27.266 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonUserRating' method called successfully
+15:42:27.461 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectFreeWifi' method
+15:42:29.846 [main] INFO  utilities.LoggerClass - 'selectFreeWifi' method executed: Successfully selected Free WiFi
+15:42:29.848 [main] INFO  utilities.LoggerClass - Test case completed: 'selectFreeWifi' method called successfully
+15:42:29.848 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectFreeBreakFast' method
+15:42:32.161 [main] INFO  utilities.LoggerClass - 'selectFreeBreakFast' method executed: Successfully selected Free Breakfast
+15:42:32.161 [main] INFO  utilities.LoggerClass - Test case completed: 'selectFreeBreakFast' method called successfully
+15:42:32.161 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectLaundryFacilities' method
+15:43:09.682 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'moveToMore' method
+15:44:22.164 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonHotels' method
+15:44:22.267 [main] INFO  utilities.LoggerClass - 'clickonHotels' method executed: Successfully clicked on Hotels
+15:44:22.267 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonHotels' method called successfully
+15:44:24.534 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectCity' method
+15:44:27.772 [main] INFO  utilities.LoggerClass - 'selectCity' method executed: Successfully selected the city
+15:44:27.772 [main] INFO  utilities.LoggerClass - Test case completed: 'selectCity' method called successfully
+15:44:27.982 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectCheckoutDate' method
+15:44:37.534 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'moveToMore' method
+15:45:29.178 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonHotels' method
+15:45:29.268 [main] INFO  utilities.LoggerClass - 'clickonHotels' method executed: Successfully clicked on Hotels
+15:45:29.268 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonHotels' method called successfully
+15:45:31.564 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectCity' method
+15:45:34.801 [main] INFO  utilities.LoggerClass - 'selectCity' method executed: Successfully selected the city
+15:45:34.802 [main] INFO  utilities.LoggerClass - Test case completed: 'selectCity' method called successfully
+15:45:35.004 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectCheckoutDate' method
+15:45:35.624 [main] INFO  utilities.LoggerClass - 'selectCheckoutDate' method executed: Successfully selected the checkout date
+15:45:35.624 [main] INFO  utilities.LoggerClass - Test case completed: 'selectCheckoutDate' method called successfully
+15:45:35.826 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonTravellerDropDown' method
+15:45:35.878 [main] INFO  utilities.LoggerClass - 'clickonTravellerDropDown' method executed: Successfully clicked on the traveller dropdown
+15:45:35.879 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonTravellerDropDown' method called successfully
+15:45:36.095 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'addTravellers' method
+15:45:36.178 [main] INFO  utilities.LoggerClass - 'addTravellers' method executed: Successfully added travellers
+15:45:36.178 [main] INFO  utilities.LoggerClass - Test case completed: 'addTravellers' method called successfully
+15:45:36.399 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonSearchButton' method
+15:45:38.978 [main] INFO  utilities.LoggerClass - 'clickonSearchButton' method executed: Successfully clicked on the search button
+15:45:38.978 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonSearchButton' method called successfully
+15:45:39.311 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'clickonUserRating' method
+15:45:43.896 [main] INFO  utilities.LoggerClass - 'clickonUserRating' method executed: Successfully clicked on user rating
+15:45:43.896 [main] INFO  utilities.LoggerClass - Test case completed: 'clickonUserRating' method called successfully
+15:45:44.101 [main] INFO  utilities.LoggerClass - Test case started: Calling the 'selectFreeWifi' method
+15:45:46.464 [main] INFO  utilities.LoggerClass - 'selectFreeWifi' method executed: Successfully selected Free WiFi
+15:45:46.464 [main] INFO  utilities.LoggerClass - Test case completed: 'selectFreeWifi' method called successfully
