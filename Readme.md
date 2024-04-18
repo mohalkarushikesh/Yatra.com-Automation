@@ -19,6 +19,7 @@
 - TestNG
 - Extent Reports
 - Cucumber
+- Jenkins
 
 
 ### Key Automation Scope
