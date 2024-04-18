@@ -47,7 +47,7 @@ public class HotelsPage extends BasePage {
 		Thread.sleep(1000);
 		hoteldestination.clear();
 		hoteldestination.sendKeys(city);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		hoteldestination.sendKeys(Keys.ENTER);
 		System.out.println(city + " is selected");
 		logger.log.info("'selectCity' method executed: Successfully selected the city");

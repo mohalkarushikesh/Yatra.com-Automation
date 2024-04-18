@@ -4,14 +4,6 @@
 	<listeners>
 		<listener class-name="utilities.ExtentReport"></listener>
 	</listeners>
-	<test thread-count="3" name="Test search in Edge">
-		<parameter name="browser" value="edge" />
-		<classes>
-			<class name="testScenario.TC_HotelsPage" />
-			<class name="testScenario.TC_CruisePage" />
-			<class name="testScenario.TC_GiftVoucherPage" />
-		</classes>
-	</test>
 	<test thread-count="3" name="Test search in Chrome">
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
@@ -21,7 +13,14 @@
 			<class name="testScenario.TC_GiftVoucherPage" />
 		</classes>
 	</test>
-
+	<test thread-count="3" name="Test search in Edge">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="testScenario.TC_HotelsPage" />
+			<class name="testScenario.TC_CruisePage" />
+			<class name="testScenario.TC_GiftVoucherPage" />
+		</classes>
+	</test>
 </suite> 
 
 

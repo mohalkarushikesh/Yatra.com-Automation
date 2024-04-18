@@ -1,79 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-18T15:45:17 IST" name="Suite" finished-at="2024-04-18T15:46:54 IST" duration-ms="96915">
+  <suite started-at="2024-04-18T16:27:48 IST" name="Suite" finished-at="2024-04-18T16:30:33 IST" duration-ms="164900">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@38467116]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-18T15:45:17 IST" name="Test search in Edge" finished-at="2024-04-18T15:46:54 IST" duration-ms="96915">
-      <class name="testrunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@38467116]" started-at="2024-04-18T15:45:17 IST" name="setUpClass" finished-at="2024-04-18T15:45:18 IST" duration-ms="796" status="PASS">
+    <test started-at="2024-04-18T16:27:48 IST" name="Test search in Chrome" finished-at="2024-04-18T16:29:12 IST" duration-ms="83275">
+      <class name="testScenario.TC_CruisePage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_CruisePage@255990cc]" started-at="2024-04-18T16:28:34 IST" name="setup" finished-at="2024-04-18T16:28:43 IST" duration-ms="9366" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@35b58254]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@38467116]" started-at="2024-04-18T15:45:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T15:46:05 IST" duration-ms="46948" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="moveToMoreTestCase()[pri:1, instance:testScenario.TC_CruisePage@255990cc]" started-at="2024-04-18T16:28:43 IST" name="moveToMoreTestCase" finished-at="2024-04-18T16:28:43 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToMoreTestCase -->
+        <test-method signature="selectCruiseFromMoreListTestCase()[pri:2, instance:testScenario.TC_CruisePage@255990cc]" started-at="2024-04-18T16:28:43 IST" name="selectCruiseFromMoreListTestCase" finished-at="2024-04-18T16:28:44 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruiseFromMoreListTestCase -->
+        <test-method signature="clickonReadMoreTestCase()[pri:3, instance:testScenario.TC_CruisePage@255990cc]" started-at="2024-04-18T16:28:44 IST" name="clickonReadMoreTestCase" finished-at="2024-04-18T16:28:48 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonReadMoreTestCase -->
+        <test-method signature="printInclusionPointsTestCase()[pri:5, instance:testScenario.TC_CruisePage@255990cc]" started-at="2024-04-18T16:28:48 IST" name="printInclusionPointsTestCase" finished-at="2024-04-18T16:28:48 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printInclusionPointsTestCase -->
+        <test-method signature="navigate2TestCase()[pri:6, instance:testScenario.TC_CruisePage@255990cc]" started-at="2024-04-18T16:28:48 IST" name="navigate2TestCase" finished-at="2024-04-18T16:28:50 IST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate2TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_CruisePage@255990cc]" started-at="2024-04-18T16:28:50 IST" name="tearDown" finished-at="2024-04-18T16:28:53 IST" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScenario.TC_CruisePage -->
+      <class name="testScenario.TC_HotelsPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:27:49 IST" name="setup" finished-at="2024-04-18T16:27:59 IST" duration-ms="10477" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Display top rated hotels with specific amenities"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Hotel and Cruise Booking and Gift Voucher Validation"]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@38467116]" started-at="2024-04-18T15:46:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T15:46:24 IST" duration-ms="19073" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="clickonHotelsTestCase()[pri:0, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:27:59 IST" name="clickonHotelsTestCase" finished-at="2024-04-18T16:27:59 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonHotelsTestCase -->
+        <test-method signature="selectCityTestCase()[pri:1, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:27:59 IST" name="selectCityTestCase" finished-at="2024-04-18T16:28:04 IST" duration-ms="4482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCityTestCase -->
+        <test-method signature="selectCheckoutDateTestCase()[pri:2, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:04 IST" name="selectCheckoutDateTestCase" finished-at="2024-04-18T16:28:05 IST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckoutDateTestCase -->
+        <test-method signature="clickonTravellerDropDownTestCase()[pri:3, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:05 IST" name="clickonTravellerDropDownTestCase" finished-at="2024-04-18T16:28:05 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonTravellerDropDownTestCase -->
+        <test-method signature="addTravellersTestCase()[pri:4, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:05 IST" name="addTravellersTestCase" finished-at="2024-04-18T16:28:05 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTravellersTestCase -->
+        <test-method signature="clickonSearchButtonTestCase()[pri:5, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:05 IST" name="clickonSearchButtonTestCase" finished-at="2024-04-18T16:28:08 IST" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSearchButtonTestCase -->
+        <test-method signature="clickonUserRatingTestCase()[pri:6, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:09 IST" name="clickonUserRatingTestCase" finished-at="2024-04-18T16:28:14 IST" duration-ms="5012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonUserRatingTestCase -->
+        <test-method signature="selectAllAminitiesTestCase()[pri:7, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:14 IST" name="selectAllAminitiesTestCase" finished-at="2024-04-18T16:28:26 IST" duration-ms="11793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllAminitiesTestCase -->
+        <test-method signature="displayHotelNamesAndPricesTestCase()[pri:8, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:26 IST" name="displayHotelNamesAndPricesTestCase" finished-at="2024-04-18T16:28:29 IST" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayHotelNamesAndPricesTestCase -->
+        <test-method signature="navigateHomepageTestCase()[pri:10, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:29 IST" name="navigateHomepageTestCase" finished-at="2024-04-18T16:28:30 IST" duration-ms="1481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomepageTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_HotelsPage@4d157787]" started-at="2024-04-18T16:28:31 IST" name="tearDown" finished-at="2024-04-18T16:28:34 IST" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScenario.TC_HotelsPage -->
+      <class name="testScenario.TC_GiftVoucherPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_GiftVoucherPage@51c929ae]" started-at="2024-04-18T16:28:53 IST" name="setup" finished-at="2024-04-18T16:29:01 IST" duration-ms="8725" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Retrieve cruise line inclusion points"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Cruise Line Inclusion Points Retrieval As a user, I want to retrieve all inclusion points of a cruise line"]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@38467116]" started-at="2024-04-18T15:46:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T15:46:45 IST" duration-ms="21787" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="moveToMore2TestCase()[pri:17, instance:testScenario.TC_GiftVoucherPage@51c929ae]" started-at="2024-04-18T16:29:01 IST" name="moveToMore2TestCase" finished-at="2024-04-18T16:29:02 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToMore2TestCase -->
+        <test-method signature="selectGiftFromMoreListTestCase()[pri:18, instance:testScenario.TC_GiftVoucherPage@51c929ae]" started-at="2024-04-18T16:29:02 IST" name="selectGiftFromMoreListTestCase" finished-at="2024-04-18T16:29:02 IST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGiftFromMoreListTestCase -->
+        <test-method signature="switchToGiftVoucherTestCase()[pri:19, instance:testScenario.TC_GiftVoucherPage@51c929ae]" started-at="2024-04-18T16:29:03 IST" name="switchToGiftVoucherTestCase" finished-at="2024-04-18T16:29:03 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToGiftVoucherTestCase -->
+        <test-method signature="checkForPhoneToolTipTestCase()[pri:21, instance:testScenario.TC_GiftVoucherPage@51c929ae]" started-at="2024-04-18T16:29:05 IST" name="checkForPhoneToolTipTestCase" finished-at="2024-04-18T16:29:07 IST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForPhoneToolTipTestCase -->
+        <test-method signature="checkForEmailToolTipTestCase()[pri:22, instance:testScenario.TC_GiftVoucherPage@51c929ae]" started-at="2024-04-18T16:29:07 IST" name="checkForEmailToolTipTestCase" finished-at="2024-04-18T16:29:09 IST" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForEmailToolTipTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_GiftVoucherPage@51c929ae]" started-at="2024-04-18T16:29:09 IST" name="tearDown" finished-at="2024-04-18T16:29:12 IST" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScenario.TC_GiftVoucherPage -->
+    </test> <!-- Test search in Chrome -->
+    <test started-at="2024-04-18T16:29:12 IST" name="Test search in Edge" finished-at="2024-04-18T16:30:33 IST" duration-ms="81354">
+      <class name="testScenario.TC_CruisePage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_CruisePage@3a7704c]" started-at="2024-04-18T16:29:53 IST" name="setup" finished-at="2024-04-18T16:30:01 IST" duration-ms="7175" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate gift voucher form with invalid data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["alidate Gift Voucher Form As a user, I want to ensure that the gift voucher form correctly handles invalid data"]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@38467116]" started-at="2024-04-18T15:46:45 IST" name="tearDownClass" finished-at="2024-04-18T15:46:54 IST" duration-ms="8272" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="moveToMoreTestCase()[pri:1, instance:testScenario.TC_CruisePage@3a7704c]" started-at="2024-04-18T16:30:01 IST" name="moveToMoreTestCase" finished-at="2024-04-18T16:30:01 IST" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testrunner.TestRunner -->
+        </test-method> <!-- moveToMoreTestCase -->
+        <test-method signature="selectCruiseFromMoreListTestCase()[pri:2, instance:testScenario.TC_CruisePage@3a7704c]" started-at="2024-04-18T16:30:01 IST" name="selectCruiseFromMoreListTestCase" finished-at="2024-04-18T16:30:02 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCruiseFromMoreListTestCase -->
+        <test-method signature="clickonReadMoreTestCase()[pri:3, instance:testScenario.TC_CruisePage@3a7704c]" started-at="2024-04-18T16:30:02 IST" name="clickonReadMoreTestCase" finished-at="2024-04-18T16:30:06 IST" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonReadMoreTestCase -->
+        <test-method signature="printInclusionPointsTestCase()[pri:5, instance:testScenario.TC_CruisePage@3a7704c]" started-at="2024-04-18T16:30:06 IST" name="printInclusionPointsTestCase" finished-at="2024-04-18T16:30:06 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printInclusionPointsTestCase -->
+        <test-method signature="navigate2TestCase()[pri:6, instance:testScenario.TC_CruisePage@3a7704c]" started-at="2024-04-18T16:30:06 IST" name="navigate2TestCase" finished-at="2024-04-18T16:30:09 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate2TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_CruisePage@3a7704c]" started-at="2024-04-18T16:30:10 IST" name="tearDown" finished-at="2024-04-18T16:30:13 IST" duration-ms="2897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScenario.TC_CruisePage -->
+      <class name="testScenario.TC_HotelsPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:12 IST" name="setup" finished-at="2024-04-18T16:29:22 IST" duration-ms="9818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonHotelsTestCase()[pri:0, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:22 IST" name="clickonHotelsTestCase" finished-at="2024-04-18T16:29:22 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonHotelsTestCase -->
+        <test-method signature="selectCityTestCase()[pri:1, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:22 IST" name="selectCityTestCase" finished-at="2024-04-18T16:29:26 IST" duration-ms="4415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCityTestCase -->
+        <test-method signature="selectCheckoutDateTestCase()[pri:2, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:27 IST" name="selectCheckoutDateTestCase" finished-at="2024-04-18T16:29:27 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckoutDateTestCase -->
+        <test-method signature="clickonTravellerDropDownTestCase()[pri:3, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:27 IST" name="clickonTravellerDropDownTestCase" finished-at="2024-04-18T16:29:27 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonTravellerDropDownTestCase -->
+        <test-method signature="addTravellersTestCase()[pri:4, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:28 IST" name="addTravellersTestCase" finished-at="2024-04-18T16:29:28 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTravellersTestCase -->
+        <test-method signature="clickonSearchButtonTestCase()[pri:5, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:28 IST" name="clickonSearchButtonTestCase" finished-at="2024-04-18T16:29:31 IST" duration-ms="2916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSearchButtonTestCase -->
+        <test-method signature="clickonUserRatingTestCase()[pri:6, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:31 IST" name="clickonUserRatingTestCase" finished-at="2024-04-18T16:29:32 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonUserRatingTestCase -->
+        <test-method signature="selectAllAminitiesTestCase()[pri:7, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:32 IST" name="selectAllAminitiesTestCase" finished-at="2024-04-18T16:29:44 IST" duration-ms="11573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllAminitiesTestCase -->
+        <test-method signature="displayHotelNamesAndPricesTestCase()[pri:8, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:44 IST" name="displayHotelNamesAndPricesTestCase" finished-at="2024-04-18T16:29:47 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayHotelNamesAndPricesTestCase -->
+        <test-method signature="navigateHomepageTestCase()[pri:10, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:47 IST" name="navigateHomepageTestCase" finished-at="2024-04-18T16:29:49 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomepageTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_HotelsPage@7674a051]" started-at="2024-04-18T16:29:49 IST" name="tearDown" finished-at="2024-04-18T16:29:53 IST" duration-ms="4151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScenario.TC_HotelsPage -->
+      <class name="testScenario.TC_GiftVoucherPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_GiftVoucherPage@6754ef00]" started-at="2024-04-18T16:30:13 IST" name="setup" finished-at="2024-04-18T16:30:22 IST" duration-ms="9164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="moveToMore2TestCase()[pri:17, instance:testScenario.TC_GiftVoucherPage@6754ef00]" started-at="2024-04-18T16:30:22 IST" name="moveToMore2TestCase" finished-at="2024-04-18T16:30:22 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToMore2TestCase -->
+        <test-method signature="selectGiftFromMoreListTestCase()[pri:18, instance:testScenario.TC_GiftVoucherPage@6754ef00]" started-at="2024-04-18T16:30:22 IST" name="selectGiftFromMoreListTestCase" finished-at="2024-04-18T16:30:23 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGiftFromMoreListTestCase -->
+        <test-method signature="switchToGiftVoucherTestCase()[pri:19, instance:testScenario.TC_GiftVoucherPage@6754ef00]" started-at="2024-04-18T16:30:23 IST" name="switchToGiftVoucherTestCase" finished-at="2024-04-18T16:30:23 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToGiftVoucherTestCase -->
+        <test-method signature="checkForPhoneToolTipTestCase()[pri:21, instance:testScenario.TC_GiftVoucherPage@6754ef00]" started-at="2024-04-18T16:30:26 IST" name="checkForPhoneToolTipTestCase" finished-at="2024-04-18T16:30:27 IST" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForPhoneToolTipTestCase -->
+        <test-method signature="checkForEmailToolTipTestCase()[pri:22, instance:testScenario.TC_GiftVoucherPage@6754ef00]" started-at="2024-04-18T16:30:27 IST" name="checkForEmailToolTipTestCase" finished-at="2024-04-18T16:30:29 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForEmailToolTipTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_GiftVoucherPage@6754ef00]" started-at="2024-04-18T16:30:29 IST" name="tearDown" finished-at="2024-04-18T16:30:33 IST" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScenario.TC_GiftVoucherPage -->
     </test> <!-- Test search in Edge -->
   </suite> <!-- Suite -->
 </testng-results>

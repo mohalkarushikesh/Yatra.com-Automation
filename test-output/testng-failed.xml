@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test search in Edge(failed)">
+  <listeners>
+    <listener class-name="utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test search in Chrome(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testrunner.TestRunner">
+      <class name="testScenario.TC_HotelsPage">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="selectAllAminitiesTestCase"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testrunner.TestRunner -->
+      </class> <!-- testScenario.TC_HotelsPage -->
     </classes>
-  </test> <!-- Test search in Edge(failed) -->
+  </test> <!-- Test search in Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

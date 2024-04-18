@@ -54,7 +54,7 @@ public class HotelsSearchPage extends BasePage {
 	public void selectFreeBreakFast() throws InterruptedException {
 		logger = new LoggerClass();
 		logger.log.info("Test case started: Calling the 'selectFreeBreakFast' method");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		for (WebElement checkbox : checkboxlist) {
 			String str = checkbox.getText();
 			if (str.contains("Free Breakfast ")) {
@@ -84,7 +84,7 @@ public class HotelsSearchPage extends BasePage {
 	public void selectSwimmingPool() throws InterruptedException {
 		logger = new LoggerClass();
 		logger.log.info("Test case started: Calling the 'selectSwimmingPool' method");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		for (WebElement checkbox : checkboxlist) {
 			String str = checkbox.getText();
 			if (str.contains("Swimming pool ")) {
