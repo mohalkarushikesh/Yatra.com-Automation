@@ -11,6 +11,19 @@
 ```
 (Suggested Site: www.yatra.com however  you are free to choose any other legitimate  site)
 ```
+### Project Overview
+This project automates the testing of various functionalities on a travel booking website (e.g., Yatra.com). The main objectives include:
+
+Hotel Booking Automation:
+	Display the hotel name and total amount for the first three hotels for four people in any location for a 5-day stay starting from tomorrow.
+	Sort the list by highest user rating.
+	Ensure the hotels offer free WiFi, free breakfast, and amenities like laundry and a swimming pool.
+Cruise Line Information Retrieval:
+	Select a cruise line and retrieve all inclusion points.
+Gift Voucher Form Validation:
+	Navigate to the gift voucher section, scroll to corporate queries, and fill in the form with invalid email and phone number.
+ 	Capture and display the error message.
+
 
 ### Prerequisites
 - Java
