@@ -72,17 +72,17 @@ Price : ₹12,27,500
 Hotel Name : Marriott Suites Pune
 Price : ₹86,400
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 123.0.2420.97 (resolved driver for Edge 123)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\2327238\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user-rushi\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
 INCLUSION
 2 Nights Cruise Accommodation
 Meals (as specified in the itinerary)
 Onboard Entertainment & Activities.(Some onboard activities and entertainment are chargeable)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 123.0.2420.97 (resolved driver for Edge 123)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\2327238\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user-rushi\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
 Phone number error message : Please enter mobile number
 Email error message : Please enter your valid email id
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\2327238\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user-rushi\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
 clicked on hotels link
 Pune is selected
 Check-in Date : 2024-04-18
@@ -99,13 +99,13 @@ Price : ₹12,27,500
 Hotel Name : O Hotel Pune
 Price : ₹1,24,696
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\2327238\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user-rushi\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
 INCLUSION
 2 Nights Cruise Accommodation
 Meals (as specified in the itinerary)
 Onboard Entertainment & Activities.(Some onboard activities and entertainment are chargeable)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\2327238\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user-rushi\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe
 Phone number error message : Please enter mobile number
 Email error message : Please enter your valid email id
 
@@ -121,7 +121,7 @@ Total tests run: 40, Passes: 40, Failures: 0, Skips: 0
 @smoke @regression
 Scenario: Display top rated hotels with specific amenities                                     # src/test/resources/Features/A_HotelsDetails.feature:3
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 123.0.2420.97 (resolved driver for Edge 123)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\2327238\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user-rushi\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
 clicked on hotels link
   Given Opening the yatra.com website, I clicked-on the ‘Hotels’ link.                         # stepdefinations.HotelsDetailsSteps.opening_the_yatra_com_website_i_clicked_on_the_hotels_link()
 
@@ -181,7 +181,7 @@ Price : ₹1,24,696
 @regression
 Scenario: Retrieve cruise line inclusion points        # src/test/resources/Features/B_CruisePage.feature:3
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 123.0.2420.97 (resolved driver for Edge 123)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\2327238\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user-rushi\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
   Given I navigate to the More section                 # stepdefinations.CruisePageSteps.i_navigate_to_the_more_section()
 
     Embedding Retrieve cruise line inclusion points [image/png 391862 bytes]
@@ -206,7 +206,7 @@ Onboard Entertainment & Activities.(Some onboard activities and entertainment ar
 @regression
 Scenario: Validate gift voucher form with invalid data                                              # src/test/resources/Features/C_GiftVoucherPage.feature:3
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 123.0.2420.97 (resolved driver for Edge 123)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\2327238\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user-rushi\.cache\selenium\msedgedriver\win64\123.0.2420.97\msedgedriver.exe
   Given I am on the Home page and moved to more section                                             # stepdefinations.GiftVoucherPageSteps.i_am_on_the_home_page_and_moved_to_more_section()
 
     Embedding Validate gift voucher form with invalid data [image/png 391862 bytes]
